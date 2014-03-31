@@ -6,6 +6,9 @@
 
   <article>
     <h1><?php echo html($page->title()) ?></h1>
+    <?php if($page->meta() != '' ):?>
+    <div class="meta"><?php echo kirbytext($page->meta()) ?></div>
+	<?php endif ?>
     <?php echo kirbytext($page->text()) ?>
   </article>
 

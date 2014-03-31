@@ -224,6 +224,7 @@ class kirbytext {
     $url   = @$params['image'];
     $alt   = @$params['alt'];
     $title = @$params['title'];
+    
 
     // alt is just an alternative for text
     if(!empty($params['text'])) $alt = $params['text'];
@@ -267,14 +268,14 @@ class kirbytext {
         'href'   => $this->url($href),
         'rel'    => @$params['rel'], 
         'class'  => @$params['class'], 
-        'title'  => html(@$params['title']), 
+        'title'  => html(@$params['title'])
       ));
-      
+
       return '<a ' . $linkAttributes . self::target($params) . '>' . $image . '</a>';
     
     }
 
-    return $image;
+    return $image ;
       
   }
 

@@ -1,9 +1,9 @@
-Title: Kirby
+Title: Bryan Connor
 ----
-Author: Bastian Allgeier
+Author: Bryan Connor
 ----
-Description: Kirby is awesome
+Description: Building digital products from the ground up.  
 ----
-Keywords: kirby, cms, kirbycms, php, filesystem
+Keywords: research, analysis, product strategy, information architecture, prototyping, user experience design, design, ux, visual design, ui, user interface design, front-end development, development,
 ----
-Copyright: © 2009-(date: Year) (link: http://bastianallgeier.com text: Bastian Allgeier)
+Copyright: © 2009-(date: Year) (link: http://bryanconnor.com text: Bryan Connor)

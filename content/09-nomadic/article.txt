@@ -1,0 +1,29 @@
+Title: Building The New Nomadic Platform
+----
+Meta:
+## Team: Tim Sarchet, Matt Burr, Jun-ho Kim, Bryan Connor
+----
+Text: 
+
+Nomadic.fm is a digital learning platform focused on business topics. They service academic and enterprise clients with customized Field Manuals delivered to groups of students.
+
+The platform needed a redesigned to focus on the content and draw out the social elements of learning in a group. 
+
+(image: nomadic-bryan-connor-1.png class: wide)
+
+Field Manuals contain core concepts, case studies, debates and other elements, many of which can be favorited, commented on and saved by students in the platform.  
+
+(image: nomadic-bryan-connor-5.png class:wide)
+
+(image: nomadic-bryan-connor-2.png class:wide)
+
+
+
+(image: nomadic-bryan-connor-3.png class:wide)
+
+(figure: nomadic-bryan-connor-4.png caption:The entire system is optimized for mobile web.)
+
+The new platform is in the process of being rolled out to institutions and organizations around the globe.
+
+
+

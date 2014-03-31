@@ -1,0 +1,27 @@
+Title: Designing one STEP at a time
+----
+Meta:
+## Team:
+Matt Brown, Ben Loh, Eric Baumgartener, Bryan Connor
+----
+Text: 
+
+STEP is a literary assessment tool that shows teachers what students know and what will get them to the next "step." Through intuitive visualizations teacher can explore reading behavior patterns of individuals students, groups, classes, schools or districts. Read more about it here
+
+(image: STEP-Bryan-Connor-1.png class:wide)
+
+Originally developed by Inquirium in 2001 as a desktop application, it has since moved to the web and continues to evolve under the direction of UEI. 
+
+(image: STEP-Bryan-Connor-2.png class: wide)
+
+
+I've partnered with Inquirium on the design and production of several iterations of the tool. Work started with information architecture and simple user interface for an early web version. Since then projects have focused on specific data displays within the tool and recently a redesign incorporating branding done in house at UChicago.
+
+
+(figure: STEP-Bryan-Connor-3.png caption: We've expanded the tool over time in keeping with the information architecture and visual style guide we set up.)
+
+
+STEP tools and training models are currently being used in 21 states and 39 cities.
+
+
+

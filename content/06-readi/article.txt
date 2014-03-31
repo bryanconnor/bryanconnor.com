@@ -1,0 +1,24 @@
+Title: Envisioning a supported reading experience with Inquirium
+----
+Meta:
+## Team:
+Matt Brown, Ben Loh, Eric Baumgartener, Nate Vander Wilt, Bryan Connor
+----
+Text: 
+I traveled to Chicago in Spring 2012 for a two day working session to tackle the core application concepts of READi with the Inquirium team. The tool is meant to create a supported reading environment for high school students struggling with reading comprehension.
+
+(image: 4-Text-Notecards.gif class:wide)
+
+READi is part of a research project lead by UIC and Northwestern University and funded by a 5 year grant from the Department of Education. Read more about it here. 
+
+(figure: 1-Unit-Library.png caption:The information architecture needed to be subject agnostic and allow for a large quantity of content.)
+(image: 2-Unit-One.gif  class:wide)
+
+Content in READi is organized into units and sections which have background texts to set the stage as well as primary texts like "Damballah" in the visual. Students can annotate the text in order to identify important elements like key events, characters, and vocabulary. These elements can then be arranged into different frameworks like timelines, character groups.
+
+(figure: 3-Text-Organizers.gif caption: Right sidebar showing navigation to the different organizers which help students arrange their annotations from the text.)
+
+(image: 5-Organizer-Timeline.gif class:wide)
+
+These concepts were developed into working prototypes and eventually tested as a part of the research project with 9-12th grade students across the Chicago public school system. 
+

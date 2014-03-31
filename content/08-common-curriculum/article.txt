@@ -1,0 +1,29 @@
+Title: Teacher-testing the Common Curriculum prototypes
+----
+Meta:
+## Team:
+Robbie Earl, Scott Messinger, Friends of the Web
+----
+Text: 
+
+I sat down with Scott Messigner in April 2012 to talk about his idea for Common Curriculum.
+
+Together we set out to envision a digital lesson templating system that would help teachers align their curriculum to the Common Core standards.  We worked on a series of wireframes and flows to illustrate some core concepts for the team and teachers or potential investors. 
+
+A few months later Scott reached out again as the team was preparing the product for launch. They wanted to iterate on the design and user experience and get some user-friendly prototypes in the hands of Baltimore City school teachers.
+
+(image: common-curriculum-bryan-connor-1.png class: wide)
+
+
+(image: common-curriculum-bryan-connor-2.png class:wide)
+
+
+
+We worked through static visual designs, interactive click-throughs and full-featured prototypes in code. 
+
+During several pre-launch events we watched as teachers tested the various prototypes and gave us valuable feedback that we quickly incorporated into the product. 
+
+Common Curriculum officially launched in August 2012 with a party at Max's Tap House in Baltimore. Friends of the Web provided final branding for the tool (as well as early working prototypes.) Development and design work were eventually taken over by the core team at Common Curriculum who have since launched several new iterations of the tool.
+
+
+
