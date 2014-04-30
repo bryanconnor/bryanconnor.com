@@ -1,9 +1,18 @@
-Title: Reading
+Title: Netness - Cyborg Anthropology
 ----
-Author: Bastian Allgeier
+Source: (link:http://cyborganthropology.com/Netness text: Netness - Cyborg Anthropology)
 ----
-Description: Kirby is awesome
-----
-Keywords: kirby, cms, kirbycms, php, filesystem
-----
-Copyright: © 2009-(date: Year) (link: http://bastianallgeier.com text: Bastian Allgeier)
+Text:
+
+1. Everything wants to be connected (or at least to be able to “converse” frictionlessly on an ad hoc basis)
+
+2. The more things are connected (able to communicate) the better things work.
+
+3. As connectivity becomes ubiquitous, systems (networks) become fields… connectivity fields…
+
+4. A new class or state of connectivity is emerging which i’ve been calling “entangled” (many threaded, loosely but deeply connected) as in entangled conversations, lives, communities, networks…
+
+5. As networks become fields, as lives and things become entangled, two worlds > the world of atoms and the world of bits < become one, greatly enhancing future opportunity and potential capability of all participants
+
+6. The ability to connect, coordinate, collaborate and share easily everywhere on an ad hoc basis is now replacing Moore’s Law as the most important source of opportunity.”
+	

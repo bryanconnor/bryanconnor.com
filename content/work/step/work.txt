@@ -1,0 +1,30 @@
+Title: Designing one STEP at a time
+----
+Meta:
+- (image: team-matt.jpg) Matt
+- (image: team-ben.jpg) Ben 
+- (image: team-eric.jpg) Eric 
+----
+Role: UX Design, UI Design, Front-end Development
+----
+Text: 
+
+(link:https://www.steptool.org/ text:STEP) is a literary assessment tool that shows teachers what students know and what will get them to the next “step.” Through intuitive visualizations teachers can explore reading assessment patterns for individuals students, groups, classes, schools or districts.
+
+(image: STEP-Bryan-Connor-1.png class:wide)
+
+(image: STEP-Bryan-Connor-2.png class: wide)
+
+
+(image: STEP-Bryan-Connor-3.png class:wide)
+
+
+I've partnered with Inquirium on the design and production of several iterations of the tool. Work started with information architecture and simple user interface for an early web version. Since then projects have focused on specific data displays within the tool and recently a redesign incorporating branding done in house at UChicago.
+
+(figure:expansion.png  caption: We've expanded the tool over time in keeping with the information architecture and visual style guide we set up.)
+
+
+STEP tools and training models are currently being used in 21 states and 39 cities.
+
+
+

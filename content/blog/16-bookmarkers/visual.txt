@@ -1,0 +1,12 @@
+Title: Kippt & Icebergs
+----
+Source:
+----
+Tags: visual
+----
+Text:
+
+(image: icebergs.jpg)
+(image: kippt.jpg)
+
+For two competing services, (link:https://icebergs.com/ text:Icebergs) and (link:https://kippt.com/ text:Kippt) sure have similar interfaces.

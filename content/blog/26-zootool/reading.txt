@@ -1,0 +1,14 @@
+Title: Goodbye Zootool
+----
+Source: (link:http://zootool.com/ text: Goodbye Zootool)
+----
+Tags: tools, reading
+----
+Text:
+
+Zootool made us realize that the general idea of running a central service is nothing we believe in any longer. Your data should belong to you and shouldn’t be stored on our servers. You shouldn’t have to rely on us or on any other service to keep your data secure and online.
+	
+We had plans to convert Zootool into a distributed software. Everyone would have their own Zoo app running on their own server or computer. Unfortunately the financial situation didn’t make it possible to finish those plans. There might be a chance to launch something in the future, but we don’t want to make any more promises we might not be able to keep.
+
+----
+Caption: Bastian Allgeier has since stated started a newsletter list to collect supporters for (link:http://bastianallgeier.com/openzoo/ text:a self-hosted, open-source alternative for Zootool).

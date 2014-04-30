@@ -1,0 +1,9 @@
+Title: Self Reliance
+----
+Tags: writing
+----
+Source:
+----
+Text: 
+
+Pretty sure designing in the browser is bullshit. There’s no way that code can give you the speed you need to quickly try out multiple directions. Locks you in, makes you lazy and slow. makes you commit too much to one thing. 

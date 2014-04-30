@@ -1,0 +1,11 @@
+Title: Type Matters
+----
+Source:
+----
+Tags: visual,
+----
+Text: 
+
+(image: qz-economist.gif)
+
+Comparing typesetting on (link:http://qz.com/ text:Quartz) and in (link:http://www.economist.com/digital/apps text:The Economist).

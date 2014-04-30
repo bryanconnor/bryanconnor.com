@@ -1,0 +1,12 @@
+Title: Designing for the Social Web
+----
+Source: (link: https://kindle.amazon.com/work/designing-social-web-ebook/B0015PROXA/B0015DWIQ0 text: Designing for the Social Web)
+----
+Tags: reading
+----
+Text: If the interface is too confining, people won’t use it. If the interface is too flexible, people won’t know how to use it. In the middle, the sweet spot, interface designers can create powerful social software that supports the person and their personality, as well as the social environment and the groups they are a part of.
+
+----
+Caption: 
+
+Finding this sweet spot is an incredible challenge. The most powerful tools are flexible. How can we provide ways for people to learn how to use use flexible and open tools? How steep can the learning curve be? The reward and utility each need to outweigh the effort of learning and using a tool.

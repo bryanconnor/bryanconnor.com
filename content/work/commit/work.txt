@@ -1,0 +1,36 @@
+Title: Helping Commit! speak for Dallas area students
+----
+Meta:
+- (image: team-tarik.jpg) Tarik
+- (image: team-andres.jpg) Andres
+----
+Role: Visual Design, Data Visualization, Layout, Typography, Copywriting
+----
+Text: 
+
+I teamed up with the core members of the (link: http://commit2dallas.org/ text:Commit! Partnership) to help create this year's (link:http://commit2dallas.org/scorecard/ text:Community Achievement Scorecard). The team and I gradually defined the messages we wanted to send with the report and crafted layouts and visualizations to support our aims. 
+
+(image: spreads-01.png class:wide)
+
+The Commit! Partnership is made up of 110 institutions, corporations, non-profits and school districts all supporting educational outcomes for the region's students. From the report: 
+
+> Dallas County now serves over 530,000 students in K-12 across its 1,000 square mile region. They are educated by 14 traditional public school systems, 35 public charter school networks, and numerous private schools. One out of every 100 students in the United States is educated in Dallas County.
+
+The scorecard documents the current state of Dallas area students by visualizing their progress along 11 key indicators. The scorecard is also broken down by ethnicity, socioeconomic status and English language learner status. We used these lenses to begin to reveal the story of the region's students. 
+
+(image: scorecard.gif class:wide)
+
+(image: reading.gif class:wide)
+
+(image: poverty-area.gif class:wide)
+
+The scorecard was designed and produced primarily for print but also lives on the web in-full as a PDF and as isolated charts shared in blog posts and social media. 
+
+(image: goal-actual.gif)
+
+The Commit! Community Achievement Scorecard is both a reflection of where Dallas stands and a tool to highlight where change needs to take place in the future. 
+
+From Andres: 
+
+> As I flip through the report, I feel a sense of pride over what we accomplished and more importantly, what this document has the potential of accomplishing on its own. I also feel a renewed sense of urgency to get to work; we used too much red in the report this year. If we keep our heads down, every year we will use less and less.
+

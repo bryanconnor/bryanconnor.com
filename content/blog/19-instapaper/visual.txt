@@ -1,0 +1,11 @@
+Title: Instapaper
+----
+Source:
+----
+Tags: visual, tools
+----
+Text: 
+
+(image: instapaper.png)
+
+(link:http://instapaper.com text:Instapaper)’s first major update since it was purchased by (link:http://betaworks.com/ text:Betaworks) boasts many improvements. My personal favorite is the new typography controls (left). What more could you ask for?

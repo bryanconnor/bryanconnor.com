@@ -1,0 +1,11 @@
+Title: Feynman Diagrams
+----
+Source:
+----
+Tags: visual
+----
+Text: 
+
+(image: feynman-diagrams.jpg class:wide)
+
+From the catalog of (link:http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0003oo text:Artful Feynman Diagrams, Fermilab exhibit by Edward Tufte text:Artful Feynman Diagrams, Fermilab exhibit by Edward Tufte)

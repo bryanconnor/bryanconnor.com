@@ -1,0 +1,9 @@
+Title: ScoreKeeper XL
+----
+Source:
+----
+Tags: writing, tools
+----
+Text: (image: scorekeeper.png)
+
+I’m using (link:https://itunes.apple.com/us/app/scorekeeper-xl/id463243024?mt=8 text:ScoreKeeper XL) to track who’s reading on screen versus in print in Union Station and on the MARC train. Interestingly this ratio seems pretty constant. 

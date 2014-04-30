@@ -1,0 +1,14 @@
+Title: Writer Pro
+----
+Tags: tools, writing
+----
+Source:
+----
+Text: 
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/82169508' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
+<p><a href="http://vimeo.com/82169508">Writer Pro</a> from <a href="http://vimeo.com/ia">Oliver Reichenstein</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+I’m a huge fan of the original (link:http://www.iawriter.com/mac/ text:iA Writer) (and of this amazing video) but (link:http://writer.pro/ text:Writer Pro) falls flat as a significant upgrade. Its four writing modes change the document’s typography and some available features but not much else. I was hoping the writing modes would store different versions of the text in a package so that notes, drafts and final pieces could exist together.
+

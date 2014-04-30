@@ -1,0 +1,13 @@
+Title: GRID
+----
+Source:
+----
+Tags: writing, tools
+----
+Text:
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/45760721' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
+<p><a href="http://vimeo.com/45760721">GRID Labs: 2012 Concept Video</a> from <a href="http://vimeo.com/user3257383">Josh Leong</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+When I first came across GRID I was really excited for the potential this strange iPad app held. When it was released I was disappointed that using it required you to log in with Facebook. Now I’m happy to report that that is no longer true. GRID also has a iPhone companion

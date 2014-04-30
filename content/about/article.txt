@@ -1,0 +1,32 @@
+Title:
+----
+Text: 
+
+(image:portrait3.jpg title: bryan connor class:portrait)
+
+## About Bryan
+
+Bryan Connor is a designer living in Baltimore partnering with great product teams from all over thanks to this thing we call the internet.
+
+For his thesis at MICA, Bryan started (link:http://thewhyaxis.info text:The Why Axis) and continues to document data visualization’s resurgence in the digital age. He's generally a big fan of anything that can expand human understanding.
+
+Bryan is up for new partnerships with clients in education, clean energy, healthcare or anything else ripe with meaningful problems to be solved. 
+
+
+## Contact and Elsewhere
+- (email: workwith@bryanconnor.com)
+- (link:http://twitter.com/bryanconnor text:@bryanconnor on twitter)
+- (link: https://dribbble.com/bryanconnor/ text:bryanconnor on dribbble)
+
+
+## My tools for remote work
+
+- Trello - project management and organization
+- Dropbox - all the shared files. 
+- Github - version control, project planning, discussion
+- Basecamp - keep relevant discussions and files together
+- Google Hangouts - chat, video calls, audio
+- Lingo - my IRC client of choice
+- Screenhero - collaborative screen sharing, chat and audio
+- Kibry - a superb flat file CMS I use to create simple sites	
+- Airmail - for my emailing needs

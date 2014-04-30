@@ -1,0 +1,12 @@
+Title: Self Reliance
+----
+Tags: writing
+----
+Source:
+----
+Text: 
+
+I wish there was a self hosted version of many web tools so I could be 100% sure my data was mine and it was safe and it wasn’t going anywhere when the tool gets shut down or the team acquired or the company runs out of money. 
+
+- redpen.io
+- sitedrop.com
