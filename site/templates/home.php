@@ -56,7 +56,7 @@
 	<div class="container">
 	<h2>Envisioning a supported reading experience with <span class="client">Inquirium</span></h2>
 	<a href="<?php echo( $site->url() )?>/work/readi" class="read-case">View Project</a>
-	<a href="<?php echo( $site->url() )?>/work/readi" ><img src="<?php echo url('assets/images/readi-snippet.png')?>" /></a>
+	<a href="<?php echo( $site->url() )?>/work/readi" ><img src="<?php echo url('assets/images/READi-snippet.png')?>" /></a>
 	</div>
 </div>
 
