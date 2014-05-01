@@ -17,7 +17,7 @@ html {
 
 /* line 25, ../sass/styles.scss */
 body {
-  font-family: "effra", helvetica, sans-serif;
+  font-family: "effra-1","effra-2", helvetica, sans-serif;
   font-size: 18px;
   line-height: 140%;
   background: #fafafa;
@@ -78,7 +78,7 @@ body.home {
   body.home h1 {
     color: #FFF;
     margin-bottom: 15px;
-    font-family: "brandon-grotesque", sans-serif;
+    font-family: "brandon-grotesque-1", "brandon-grotesque-2", sans-serif;
     font-weight: 300;
     font-size: 2.6em; }
   /* line 100, ../sass/styles.scss */
@@ -88,7 +88,7 @@ body.home {
     font-weight: 400;
     font-size: 1.75em;
     width: 50%;
-    font-family: "brandon-grotesque", sans-serif;
+    font-family: "brandon-grotesque-1", "brandon-grotesque-2", sans-serif;
     line-height: 135%; }
     /* line 109, ../sass/styles.scss */
     body.home h2 span {
@@ -132,7 +132,7 @@ body.home {
     color: #FFF;
     margin-top: 50px;
     margin-bottom: 16px;
-    font-family: "brandon-grotesque", sans-serif;
+    font-family: "brandon-grotesque-1","brandon-grotesque-2", sans-serif;
     font-weight: 300;
     font-size: 2em; }
 
@@ -221,7 +221,7 @@ body.home {
   -moz-transition: 0.35s;
   -o-transition: 0.35s;
   transition: 0.35s;
-  font-family: "effra";
+  font-family: "effra-1","effra-2", helvetica, sans-serif;
   display: inline-block; }
   /* line 243, ../sass/styles.scss */
   .read-case:hover {
@@ -258,9 +258,9 @@ h1 {
   font-size: 40px;
   color: #382C14;
   margin-bottom: 55px;
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: "brandon-grotesque-1","brandon-grotesque-2", sans-serif;
   font-weight: 800;
-  font-family: "effra";
+  font-family: "effra-1","effra-2", helvetica, sans-serif;
   line-height: 115%; }
 
 /* line 279, ../sass/styles.scss */
@@ -285,7 +285,7 @@ h4 {
 p {
   margin-bottom: 20px;
   font-family: "freight-text-pro";
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: "brandon-grotesque-1","brandon-grotesque-2", sans-serif;
   color: #333; }
 
 /* line 301, ../sass/styles.scss */
@@ -328,7 +328,7 @@ nav li {
   text-transform: uppercase;
   letter-spacing: .15em;
   font-size: 14px;
-  font-family: "effra"; }
+  font-family: "effra-1","effra-2", helvetica, sans-serif; }
 
 /* line 349, ../sass/styles.scss */
 nav li a {
@@ -378,7 +378,7 @@ section.content {
     padding-bottom: 10px; }
     /* line 394, ../sass/styles.scss */
     .articlelist li a {
-      font-family: "effra", sans-serif;
+      font-family: "effra-1","effra-2", helvetica, sans-serif;
       color: #ccc;
       font-size: 14px; }
       /* line 399, ../sass/styles.scss */
@@ -405,7 +405,7 @@ section.content {
     padding-bottom: 0px; }
     /* line 423, ../sass/styles.scss */
     .tagcloud li a {
-      font-family: "effra", sans-serif;
+      font-family: "effra-1","effra-2", helvetica, sans-serif;
       color: #ccc;
       font-size: 14px; }
       /* line 428, ../sass/styles.scss */
@@ -457,7 +457,7 @@ article {
     article ul li {
       font-size: 20px;
       line-height: 154%;
-      font-family: "ff-tisa-web-pro", Georgia, serif; }
+      font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, serif; }
       /* line 476, ../sass/styles.scss */
       article ul li a {
         color: #1186e4;
@@ -469,7 +469,7 @@ article {
   article p {
     font-size: 20px;
     line-height: 154%;
-    font-family: "ff-tisa-web-pro", Georgia, serif; }
+    font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, serif; }
     /* line 489, ../sass/styles.scss */
     article p a {
       color: #1186e4;
@@ -479,7 +479,7 @@ article {
         color: #0a4e85; }
     /* line 496, ../sass/styles.scss */
     article p.captiontext {
-      font-family: "ff-tisa-web-pro", georgia, serif;
+      font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", georgia, serif;
       font-size: 16px;
       border-bottom: 1px solid #ddd;
       padding-bottom: 15px;
@@ -505,7 +505,7 @@ article {
   /* line 528, ../sass/styles.scss */
   article h2 {
     font-weight: 600;
-    font-family: "effra", sans-serif;
+    font-family: "effra-1","effra-2", helvetica, sans-serif;
     margin-top: 30px; }
     /* line 533, ../sass/styles.scss */
     article h2 a:hover {
@@ -531,7 +531,7 @@ article {
 
 /* line 558, ../sass/styles.scss */
 .permalink {
-  font-family: "effra", sans-serif;
+  font-family: "effra-1","effra-2", helvetica, sans-serif;
   color: #ccc;
   font-size: .9em;
   margin-top: 0px; }
@@ -554,7 +554,7 @@ article.reading-item .source p {
 article.reading-item .source a {
   text-align: center;
   display: block;
-  font-family: "effra", sans-serif;
+  font-family: "effra-1","effra-2", helvetica, sans-serif;
   color: #666;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -611,7 +611,7 @@ article.work-item {
   article.work-item .meta {
     margin-top: 100px;
     margin-bottom: 100px;
-    font-family: "effra";
+    font-family: "effra-1","effra-2", helvetica, sans-serif;
     font-weight: 600; }
     /* line 660, ../sass/styles.scss */
     article.work-item .meta h2 {
@@ -621,12 +621,12 @@ article.work-item {
       font-size: 22px;
       color: #28200E;
       margin-top: 60px;
-      font-family: "effra";
+      font-family: "effra-1","effra-2", helvetica, sans-serif;
       font-weight: bold; }
     /* line 671, ../sass/styles.scss */
     article.work-item .meta p {
       display: inline;
-      font-family: "effra"; }
+      font-family: "effra-1","effra-2", helvetica, sans-serif; }
     /* line 676, ../sass/styles.scss */
     article.work-item .meta ul {
       list-style: none;
@@ -668,7 +668,7 @@ article.work-item {
       margin: 0 auto; }
     /* line 712, ../sass/styles.scss */
     .worklist li a {
-      font-family: "ff-tisa-web-pro", Georgia, serif;
+      font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, serif;
       padding-top: 20px;
       display: block; }
       /* line 716, ../sass/styles.scss */
@@ -698,7 +698,7 @@ article.work-item {
       width: 66px;
       margin-right: 15px;
       text-align: center;
-      font-family: "effra";
+      font-family: "effra-1","effra-2", helvetica, sans-serif;
       font-weight: 600;
       font-size: 14px;
       line-height: 120%;
@@ -733,7 +733,7 @@ article.work-item {
     /* line 773, ../sass/styles.scss */
     .team .role p {
       color: #deeffd;
-      font-family: "effra";
+      font-family: "effra-1","effra-2", helvetica, sans-serif;
       line-height: 110%;
       font-weight: 400;
       display: inline;
@@ -767,7 +767,7 @@ ul.team-bryan {
     top: 27px;
     right: -200px;
     width: 180px;
-    font-family: "ff-tisa-web-pro", georgia, serif;
+    font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", georgia, serif;
     font-size: 15px;
     border-top: 1px solid #ddd;
     padding-top: 12px;
