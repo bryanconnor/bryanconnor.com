@@ -1,0 +1,13 @@
+Title: Project Ara
+----
+Tags: writing, open
+----
+Source:
+----
+Text: 
+
+(image: ara.jpg class:wide)
+
+Project Ara really is a phone for the future. With an endoskeleton and customizable modules to attach and swap, this phone epitomizes openness in hardware and future-friendly design. Third party developers can even create components for the phone by following a set of guidelines. 
+
+(link:http://newdealdesign.com/ text:New Deal Design) worked on the project and put up an interesting (link:http://newdealdesign.com/projects/project-ara text:case study).  
