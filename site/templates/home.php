@@ -5,18 +5,16 @@
 	<div class="container">
 	<!-- <h1>Building digital products from the ground up.</h1> -->
 	<h1>Partnering with great teams to bring products to life.</h1>
+	<a href="mailto:workwith@bryanconnor.com" class="read-case available">Available for new work</a>
 	<!-- <h3>Currently: <a span class="client">PBS KIDS Digital</a>.</h3> -->
 	</div>
 </div>
-<div class="wrapper pbskids">
+<!-- <div class="wrapper pbskids">
 	<div class="container">
-	<h2>Currently working with <span class="client">PBS KIDS Digital</span></h2>
-<!-- 	<a href="<?php echo( $site->url() )?>/pbs" class="read-case">In Progress</a>
- -->	<img src="<?php echo url('assets/images/pbs-snippet.png')?>" />
-
-
+		<h2>Currently working with <span class="client">PBS KIDS Digital</span></h2>
+		<img src="<?php echo url('assets/images/pbs-snippet.png')?>" />
 	</div>
-</div>
+</div> -->
 <div class="wrapper opengov">
 	<div class="container">
 	<h2>Hacking how bills become law with the <span class="client">OpenGov Foundation</span></h2>
