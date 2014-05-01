@@ -11,7 +11,7 @@
 
   <?php echo css('assets/stylesheets/styles.css') ?>
   
-  <script type="text/javascript" src="//use.typekit.net/kxw3cyx.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/fpd1xaz.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <script type="text/javascript">
