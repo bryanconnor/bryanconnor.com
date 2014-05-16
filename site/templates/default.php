@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 <div class="container">
-<section class="content">
+<section class="content"> 
 
   
 
