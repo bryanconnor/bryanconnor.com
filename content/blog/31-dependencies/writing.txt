@@ -1,0 +1,17 @@
+Title: Dependencies 
+----
+Tags: writing
+----
+Source:
+----
+Text: 
+
+I hate to say it but with every new, seemingly useful, service I come across I feel a pang of anxiety over whether it’ll still be around in a year.
+
+Sometimes I think I’m being overly cautious. A software as a service model doesn't doom a business to failure. But with each acquisition, security breach and shutdown I become less and less convinced it's a sustainable idea.
+
+I wish the solution were as simple as purchasing and hosting my own instances of existing software but that's rarely an option. Only (link:http://getkirby.com/ text:a few) (link:https://variancecharts.com/ text:companies) offer this (and most (link:https://twitter.com/37signals/status/467057825878138881 text:never will)). Blogging also seems to be the only web task established enough to have generated companies who use this model. 
+
+Why is this the case? Are there flaws inherent to distributed software? Is SaaS really a superior model? What can we do to become less reliant on potentially flimsy services? 
+
+If you’ve had thoughts along these lines be sure to reply via (link:http://twitter.com/bryanconnor text:twitter) or (link:bryan.j.connor@gmail.com text:email). 
