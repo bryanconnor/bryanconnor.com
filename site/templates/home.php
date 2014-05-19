@@ -17,44 +17,44 @@
 </div> -->
 <div class="wrapper opengov">
 	<div class="container">
+	<a href="<?php echo( $site->url() )?>/work/opengov"><img src="<?php echo url('assets/images/madison-snippet3.gif')?>" /></a>
 	<h2>Hacking how bills become law with the <span class="client">OpenGov Foundation</span></h2>
 	<a href="<?php echo( $site->url() )?>/work/opengov" class="read-case">View Project</a>
-	<a href="<?php echo( $site->url() )?>/work/opengov"><img src="<?php echo url('assets/images/madison-snippet3.gif')?>" /></a>
 	</div>
 </div>
 <div class="wrapper commit">
 	<div class="container">
+	<a href="<?php echo( $site->url() )?>/work/commit" ><img src="<?php echo url('assets/images/commit-snippet.png')?>" /></a>
 	<h2>Helping <span class="client">Commit!</span> speak for Dallas area students</h2>
 	<a href="<?php echo( $site->url() )?>/work/commit" class="read-case">View Project</a>
-	<a href="<?php echo( $site->url() )?>/work/commit" ><img src="<?php echo url('assets/images/commit-snippet.png')?>" /></a>
 	</div>
 </div>
 <div class="wrapper nomadic">
 	<div class="container">
+	<a href="<?php echo( $site->url() )?>/work/nomadic"><img src="<?php echo url('assets/images/nomadic-snippet.png')?>" /></a>
 	<h2>Building a new platform for <span class="client">Nomadic</span> learners </h2>
 	<a href="<?php echo( $site->url() )?>/work/nomadic" class="read-case">View Project</a>
-	<a href="<?php echo( $site->url() )?>/work/nomadic"><img src="<?php echo url('assets/images/nomadic-snippet.png')?>" /></a>
 	</div>
 </div>
 <div class="wrapper commoncurriculum">
 	<div class="container">
+	<a href="<?php echo( $site->url() )?>/work/common-curriculum" ><img src="<?php echo url('assets/images/common-curriculum-snippet.png')?>" /></a>
 	<h2>Putting <span class="client">Common Curriculum</span> to the test with Baltimore teachers</h2>
 	<a href="<?php echo( $site->url() )?>/work/common-curriculum" class="read-case">View Project</a>
-	<a href="<?php echo( $site->url() )?>/work/common-curriculum" ><img src="<?php echo url('assets/images/common-curriculum-snippet.png')?>" /></a>
 	</div>
 </div>
 <div class="wrapper step">
 	<div class="container">
+	<a href="<?php echo( $site->url() )?>/work/step" ><img src="<?php echo url('assets/images/step-snippet.png')?>" /></a>
 	<h2>Designing one <span class="client">STEP</span> at a time</h2>
 	<a href="<?php echo( $site->url() )?>/work/step" class="read-case">View Project</a>
-	<a href="<?php echo( $site->url() )?>/work/step" ><img src="<?php echo url('assets/images/step-snippet.png')?>" /></a>
 	</div>
 </div>
 <div class="wrapper readi">
 	<div class="container">
+	<a href="<?php echo( $site->url() )?>/work/readi" ><img src="<?php echo url('assets/images/READi-snippet.png')?>" /></a>
 	<h2>Envisioning a supported reading experience with <span class="client">Inquirium</span></h2>
 	<a href="<?php echo( $site->url() )?>/work/readi" class="read-case">View Project</a>
-	<a href="<?php echo( $site->url() )?>/work/readi" ><img src="<?php echo url('assets/images/READi-snippet.png')?>" /></a>
 	</div>
 </div>
 
