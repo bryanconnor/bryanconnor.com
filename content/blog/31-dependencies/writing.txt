@@ -15,3 +15,20 @@ I wish the solution were as simple as purchasing and hosting my own instances of
 Why is this the case? Are there flaws inherent to distributed software? Is SaaS really a superior model? What can we do to become less reliant on potentially flimsy services? 
 
 If you’ve had thoughts along these lines be sure to reply via (link:http://twitter.com/bryanconnor text:twitter) or (link:bryan.j.connor@gmail.com text:email). 
+
+**Responses**
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/bryanconnor">@bryanconnor</a> because part of the value in hosted software is not having to maintain it. Lots of moving parts in an app like Basecamp.</p>&mdash; Zach Waugh (@zachwaugh) <a href="https://twitter.com/zachwaugh/statuses/468536132209483776">May 19, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/bryanconnor">@bryanconnor</a> because most people don’t want &#39;software&#39;, they just want their problem solved. They want service.</p>&mdash; Andy Mangold (@andymangold) <a href="https://twitter.com/andymangold/statuses/468537555038646273">May 19, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/bryanconnor">@bryanconnor</a> it just happens to be that software is a really great engine for lots of services.</p>&mdash; Andy Mangold (@andymangold) <a href="https://twitter.com/andymangold/statuses/468537704095830016">May 19, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/zachwaugh">@zachwaugh</a> <a href="https://twitter.com/bryanconnor">@bryanconnor</a> hardware failure, frequent updates &amp; upgrades, need of technical knowledge and more reasons suggest choosing saas :)</p>&mdash; Sandeep Kashyap (@kashyapsandeep) <a href="https://twitter.com/kashyapsandeep/statuses/468558255610798080">May 20, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/bryanconnor">@bryanconnor</a> 1) Recurring revenue. 2) Tight turnaround for deploying updates. 3) Recurring revenue.</p>&mdash; Chris Ashworth (@Chris_Ashworth) <a href="https://twitter.com/Chris_Ashworth/statuses/468577244949254144">May 20, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
