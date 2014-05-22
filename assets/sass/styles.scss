@@ -55,42 +55,45 @@ body {
   }
 
 body.home{
-  background: $base;
   color: #FFF;
-  a:hover{
-    color: #FFF;
-  }
-  .mailme{
-    .typicons-mail{
-      color: lighten($base, 30%);
-      &:hover{
-        color: #fff;
-      }
-    }
-  }
   .header{
     background: $base;
-    border-bottom: darken($base, 8%);
-    nav{
-      li{
-        a{
-          color: lighten($base, 30%);
-          &:hover{
-            color: #FFF;
-          }
-        }
+    a{
+      color: lighten($base, 25%);
+      .typicons-mail{
+        color: lighten($base, 25%);
+      }
+      &:hover{
+        color: #FFF;
       }
     }
   }
   .container{
-    width: 1000px;
+    //width: 1000px;
     margin: 0 auto;
+  }
+  .wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    z-index: 2;
+    position: relative;
+    img{
+      width: 100%;
+      //padding-right: 5%;
+      //float: left;
+      margin-bottom: 14px;
+      border: 1px solid #ddd;
+    }
   }
   .headline{
     padding-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
+    margin-bottom: 35px;
+    background: $base;
   }
   h1{
+    color: darken($base, 10%);
     color: #FFF;
     margin-bottom: 15px;
     font-family: "brandon-grotesque-1", "brandon-grotesque-2", "brandon-grotesque", sans-serif;
@@ -99,16 +102,24 @@ body.home{
   }
   h2{
     color: #FFF;
-    color: lighten($base, 43%);
+    color: darken($base, 8%);
     //font-family: "effra";
     font-weight: 400;
-    font-size: 1.75em;
-    width: 50%;
+    font-size: 1.9em;
+    //width: 50%;
     font-family: "brandon-grotesque-1", "brandon-grotesque-2", "brandon-grotesque", sans-serif;
-    line-height: 130%;
+    line-height: 140%;
+    margin-bottom: 20px;
     span{
       // border-bottom: 1px solid lighten($base, 50%);
-      color: #FFF;
+      // color: #FFF;
+    }
+    a{
+      color: darken($base, 8%);
+      &:hover{
+        //text-decoration: underline;
+        background: lighten($base, 45%);
+      }
     }
   }
   h3{
@@ -117,35 +128,33 @@ body.home{
     //font-family: "effra";
     font-weight: 600;
     a{
-      color: lighten($base, 40%);
+      color: lighten($base, 20%);
       border-bottom: 1px solid lighten($base, 40%);
     }
   }
 }
 
-.bluehead{
-  background: $base;
+.bluehead {
+  background: #1186e4;
   color: #FFF;
   padding-bottom: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0px; 
   .header{
     background: none;
     a{
-      color: lighten($base, 30%);
+      color: lighten($base, 25%);
       .typicons-mail{
-        color: lighten($base, 30%);
+        color: lighten($base, 25%);
       }
       &:hover{
         color: #FFF;
       }
     }
   }
-  .mailme{
-    .typicons-mail{
-      color: lighten($base, 30%);
-      &:hover{
-        color: #fff;
-      }
+  .mailme .typicons-mail{
+    color: lighten($base, 15%);
+    &:hover{
+      color: #fff;
     }
   }
   h1{
@@ -158,6 +167,7 @@ body.home{
   }
 }
 
+
 .fixto-fixed{
   z-index: 1;
 }
@@ -168,71 +178,49 @@ body.home{
   //opacity: .95;
 }
 
-.home .wrapper{
-  padding-top: 150px;
-  padding-bottom: 150px;
-  z-index: 2;
-  position: relative;
-  .container{
-    //position: relative;
-  }
-  img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 500px;
-    @include opacity(1);
-    @include transition();
-  }
-  &:hover{
-    img{
-      @include opacity(1);
-    }
-  }
-}
-
 .wrapper.headline{
-  background: $base;
+  //background: $base;
 }
 .wrapper.pbskids{
-  background: lighten($base, 0%);
+  //background: lighten($base, 0%);
   padding-top: 100px;
   img{
-    width: 600px;
+    //width: 600px;
   }
 }
 .wrapper.opengov{
-  background: lighten($base, 8%);
+  //background: lighten($base, 8%);
   img{
-    width: 600px;
+    //width: 600px;
   }
 }
 .wrapper.commit{
-  background: lighten($base, 4%);
+  //background: lighten($base, 4%);
 }
 .wrapper.nomadic{
-  background: $base;
+  //background: $base;
   img{
-    width: 600px;
+    //width: 600px;
   }
 }
 .wrapper.commoncurriculum{
-  background: lighten($base, 4%);
+  //background: lighten($base, 4%);
 }
 .wrapper.step{
-  background: lighten($base, 8%);
+  //background: lighten($base, 8%);
   img{
-    width: 600px;
+    //width: 600px;
   }
 }
 .wrapper.readi{
-  background: lighten($base, 4%);
+  //background: lighten($base, 4%);
+  padding-bottom: 240px;
 }
 
 .read-case{
-  background: darken($base, 8%);
-  padding: 11px 15px;
-  color: lighten($base, 35%);
+  background: $base;
+  padding: 6px 15px;
+  color: lighten($base, 55%);
   text-transform: uppercase;
   letter-spacing: .1em;
   font-weight: 800;
@@ -241,14 +229,17 @@ body.home{
   font-family: "effra-1","effra-2", helvetica, sans-serif; 
   display: inline-block;
   &:hover{
-    background: darken($base, 15%);
+    background: darken($base, 5%);
+    color: #fff
   }
   &.available{
-    background: lighten($base, 15%);
-    color: lighten($base, 40%);
+    background: darken($base, 10%);
+    color: lighten($base, 30%);
     margin-top: 8px;
+    margin-bottom: 70px;
     &:hover{
-      background: lighten($base, 20%);
+      color: #FFF;
+      background: darken($base, 15%);
     }
   }
 }
@@ -834,38 +825,8 @@ ul.team-bryan{
   }
 }
 
-@media screen and (min-width: 1445px) {
-
-.home .wrapper img{
-  right: 10%;
-}
-
-}
-
-@media screen and (max-width: 1200px) {
-  .home .wrapper h2{
-    width: 33%;
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  .home .menu.container{
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    @include box-sizing(border-box);
-  }
-
-  .home .wrapper .container{
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    @include box-sizing(border-box);
-  }
 
 
-
-}
 
 @media screen and (max-width: 1000px) {
   article img.wide{
@@ -920,7 +881,8 @@ ul.team-bryan{
 
   .home .wrapper{
     padding-bottom: 0px;
-    padding-top: 30px;
+    padding-top: 0px;
+    margin-bottom: 0px !important; 
   }
 
 }
