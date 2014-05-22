@@ -55,17 +55,45 @@ body {
   }
 
 body.home{
-  //background: $base;
   color: #FFF;
+  .header{
+    background: $base;
+    a{
+      color: lighten($base, 25%);
+      .typicons-mail{
+        color: lighten($base, 25%);
+      }
+      &:hover{
+        color: #FFF;
+      }
+    }
+  }
   .container{
-    width: 1000px;
+    //width: 1000px;
     margin: 0 auto;
+  }
+  .wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    z-index: 2;
+    position: relative;
+    img{
+      width: 100%;
+      //padding-right: 5%;
+      //float: left;
+      margin-bottom: 14px;
+    }
   }
   .headline{
     padding-top: 80px;
+    padding-bottom: 40px;
+    margin-bottom: 35px;
+    background: $base;
   }
   h1{
     color: darken($base, 10%);
+    color: #FFF;
     margin-bottom: 15px;
     font-family: "brandon-grotesque-1", "brandon-grotesque-2", "brandon-grotesque", sans-serif;
     font-weight: 300;
@@ -77,12 +105,20 @@ body.home{
     //font-family: "effra";
     font-weight: 400;
     font-size: 1.9em;
-    width: 50%;
+    //width: 50%;
     font-family: "brandon-grotesque-1", "brandon-grotesque-2", "brandon-grotesque", sans-serif;
-    line-height: 120%;
+    line-height: 140%;
+    margin-bottom: 10px;
     span{
       // border-bottom: 1px solid lighten($base, 50%);
       // color: #FFF;
+    }
+    a{
+      color: darken($base, 8%);
+      &:hover{
+        //text-decoration: underline;
+        background: lighten($base, 40%);
+      }
     }
   }
   h3{
@@ -105,9 +141,9 @@ body.home{
   .header{
     background: none;
     a{
-      color: lighten($base, 15%);
+      color: lighten($base, 25%);
       .typicons-mail{
-        color: lighten($base, 15%);
+        color: lighten($base, 25%);
       }
       &:hover{
         color: #FFF;
@@ -129,33 +165,6 @@ body.home{
     font-size: 2em;
   }
 }
-  /* line 131, ../sass/styles.scss */
-  .bluehead .header {
-    background: none; }
-    /* line 133, ../sass/styles.scss */
-    .bluehead .header a {
-      color: #97ccf7; }
-      /* line 135, ../sass/styles.scss */
-      .bluehead .header a .typicons-mail {
-        color: #97ccf7; }
-      /* line 138, ../sass/styles.scss */
-      .bluehead .header a:hover {
-        color: #FFF; }
-  /* line 144, ../sass/styles.scss */
-  .bluehead .mailme .typicons-mail {
-    color: #97ccf7; }
-    /* line 146, ../sass/styles.scss */
-    .bluehead .mailme .typicons-mail:hover {
-      color: #fff; }
-  /* line 151, ../sass/styles.scss */
-  .bluehead h1 {
-    color: #FFF;
-    margin-top: 50px;
-    margin-bottom: 16px;
-    font-family: "brandon-grotesque-1","brandon-grotesque-2", "brandon-grotesque", sans-serif;
-    font-weight: 300;
-    font-size: 2em; }
-
 
 
 .fixto-fixed{
@@ -166,25 +175,6 @@ body.home{
   //position: fixed;
   //background: #FCFBFA;
   //opacity: .95;
-}
-
-.home .wrapper{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-bottom: 100px;
-  z-index: 2;
-  position: relative;
-  .container{
-    //position: relative;
-  }
-  img{
-    width: 42%;
-    padding-right: 5%;
-    float: left;
-  }
-  h2{
-    display: inline-block;
-  }
 }
 
 .wrapper.headline{
@@ -242,11 +232,13 @@ body.home{
     color: #fff
   }
   &.available{
-    background:$base;
-    color: lighten($base, 50%);
+    background: darken($base, 10%);
+    color: lighten($base, 30%);
     margin-top: 8px;
+    margin-bottom: 70px;
     &:hover{
-      background: darken($base, 10%);
+      color: #FFF;
+      background: darken($base, 15%);
     }
   }
 }
