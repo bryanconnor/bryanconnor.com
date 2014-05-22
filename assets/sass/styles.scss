@@ -83,6 +83,7 @@ body.home{
       //padding-right: 5%;
       //float: left;
       margin-bottom: 14px;
+      border: 1px solid #ddd;
     }
   }
   .headline{
@@ -108,7 +109,7 @@ body.home{
     //width: 50%;
     font-family: "brandon-grotesque-1", "brandon-grotesque-2", "brandon-grotesque", sans-serif;
     line-height: 140%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     span{
       // border-bottom: 1px solid lighten($base, 50%);
       // color: #FFF;
@@ -117,7 +118,7 @@ body.home{
       color: darken($base, 8%);
       &:hover{
         //text-decoration: underline;
-        background: lighten($base, 40%);
+        background: lighten($base, 45%);
       }
     }
   }
