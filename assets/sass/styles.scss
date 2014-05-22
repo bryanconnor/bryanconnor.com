@@ -825,38 +825,8 @@ ul.team-bryan{
   }
 }
 
-@media screen and (min-width: 1445px) {
-
-.home .wrapper img{
-  right: 10%;
-}
-
-}
-
-@media screen and (max-width: 1200px) {
-  .home .wrapper h2{
-    width: 33%;
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  .home .menu.container{
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    @include box-sizing(border-box);
-  }
-
-  .home .wrapper .container{
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    @include box-sizing(border-box);
-  }
 
 
-
-}
 
 @media screen and (max-width: 1000px) {
   article img.wide{
@@ -911,7 +881,8 @@ ul.team-bryan{
 
   .home .wrapper{
     padding-bottom: 0px;
-    padding-top: 30px;
+    padding-top: 0px;
+    margin-bottom: 0px !important; 
   }
 
 }
