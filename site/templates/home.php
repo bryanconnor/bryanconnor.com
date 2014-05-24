@@ -1,7 +1,14 @@
 <?php snippet('header') ?>
-<?php snippet('menu') ?>
 
 <div class="wrapper headline">
+	<nav class="menu container">
+	  <ul>
+	  	<li><a href="<?php echo $site->url() ?>">Work</a></li>
+	  	<li><a href="<?php echo $site->url() ?>/about">About</a></li>
+	  	<li><a href="<?php echo $site->url() ?>/blog">Everything Else</a></li>
+	  </ul>
+	  <a href="mailto:workwith@bryanconnor.com" class="mailme"><span class="typicons-mail"></span></a>
+	</nav>
 	<div class="container">
 	<!-- <h1>Building digital products from the ground up.</h1> -->
 	<h1>Partnering with great teams to bring products to life.</h1>
