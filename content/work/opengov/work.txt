@@ -13,7 +13,7 @@ Text:
 
 My work with the (link:http://opengovfoundation.org/ text:OpenGov Foundation) is still ongoing but our task is set: re-invent the way bills become laws with (link:http://mymadison.io/ text:The Madison Project). Madison helps legislators and their constituents collaborate on bills as they're being written.
 
-(image: madison-snippet.gif)
+(image: madison-document.png class: wide)
 
 Madison is completely (link:https://github.com/opengovfoundation/madison/ text:open source) and in that spirit all of our design iterations and discussion are (link:https://github.com/opengovfoundation/madison-assets text:publicly visible) as well. The platform has undergone several revisions with more on the way. Some upcoming planned features include more robust document pages, richer annotation and commenting functionality, and a better bill writing interface for legislators and bill sponsors. 
 

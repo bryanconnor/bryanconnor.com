@@ -25,7 +25,7 @@
 <div class="wrapper opengov">
 	<div class="container">
 	<h2><a href="<?php echo( $site->url() )?>/work/opengov">Hacking how bills become law with the <span class="client">OpenGov Foundation</span></a></h2>
-	<a href="<?php echo( $site->url() )?>/work/opengov"><img src="<?php echo url('assets/images/madison-snippet3.gif')?>" /></a>
+	<a href="<?php echo( $site->url() )?>/work/opengov"><img src="<?php echo url('content/work/opengov/madison-snippet.png')?>" /></a>
 	<!--<a href="<?php echo( $site->url() )?>/work/opengov" class="read-case">View Project</a>-->
 	</div>
 </div>
