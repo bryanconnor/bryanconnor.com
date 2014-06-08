@@ -1,0 +1,20 @@
+Title: 2014 National Civic Day of Hacking
+----
+Tags: writing
+----
+Source:
+----
+Text:
+Over the weekend I participated in (link:http://hackbaltimore.org/events/hack-for-change-baltimore/ text:Hack for Change Baltimore) as a part of this year’s (link:http://hackforchange.org/ text:National Civic Day of Hacking). 
+
+I went in with a few ideas including tackling Code for America’s (link: http://hackforchange.org/challenges/digital-front-doordigital-divide-challenge/ text:Digital Front Door Challenge) but ended up working with the talented (link:https://twitter.com/anandthakker text:Anand Thakker) on something completely different. 
+
+(image: ndoch.jpg link:http://anandthakker.github.io/baltimore-neighborhood-vitalsigns/#/i/pwhite10:pasi10:p2more10:phisp10:age5_10:age24_10:hhs10:fam10/c// class:wide)
+
+Building off of Anand’s initial prototype, we created a free-form (link:http://anandthakker.github.io/baltimore-neighborhood-vitalsigns/#/i/tpop10:male10/c// text:exploration tool) for (link:http://bniajfi.org/ text:BNIA)’s neighborhood data. The small multiples allow users to browse the neighborhood indicators by geography.  
+
+Since the event, Anand and I have continued to enhance (link:http://anandthakker.github.io/baltimore-neighborhood-vitalsigns/#/i/tpop10:male10/c// text:the tool) with histograms showing the distribution of values across the map and scatter plots comparing any two data sets. You can also select individual neighborhoods and track them across visualizations.
+
+We're still in the process of building the tool, adding and taking away features, so if you have any ideas for it don't hesitate to get in touch or (link:https://github.com/anandthakker/baltimore-neighborhood-vitalsigns text:fork the project on Github). 
+
+
