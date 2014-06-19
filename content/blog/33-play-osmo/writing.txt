@@ -1,0 +1,14 @@
+Title: Play Osmo
+----
+Tags: learning
+----
+Source:
+----
+Text:
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='http://www.youtube.com/embed/CbwIJMz9PAQ' frameborder='0' allowfullscreen></iframe></div>
+
+A pretty interesting technology invented by some parents from Google and Stanford. (link:https://www.playosmo.com/ text:Osmo) allows kids to interact with physical objects to achieve goals in iPad games. It blends the two realms in a seamless and pretty magical way. 
+
+I'll think we'll see a lot more along these lines, with more sophisticated pieces using technology like bluetooth to enable them individually to communicate with the device. 
+
