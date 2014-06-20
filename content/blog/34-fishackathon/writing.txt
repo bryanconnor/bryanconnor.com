@@ -1,0 +1,32 @@
+Title: Fishackathon
+----
+Tags: hacking, writing
+----
+Source:
+----
+Text:
+
+When I heard about the opportunity to spend the night in the (link:http://www.aqua.org/ text:National Aquarium) working to solve sustainable fisheries challenges I jumped at the chance. 
+
+(image: fishackathon2.jpg class:wide)
+
+The inaugural (link:http://www.fishackathon.co/ text:Fishackathon) was held across the country at 5 different venues with all teams working problems posed by fish sustainability experts from around the world.
+
+Our team decided to work on a problem posed by (link:http://www.usaid.gov/philippines/energy-and-environment/ecofish text:USAID and ECOFISH) for sustainable fisheries in the Philippines: 
+
+> Our field enumerators need to be able to collect more accurate data more quickly and more efficiently to be able to monitor more gear landings and cover more ground.
+
+Currently the enumerators (data collectors) travel between landing sites recording catch data on paper, asking fishermen to estimate where various catches were made. 
+
+Since we were told the US State Department is planning on providing mobile devices to data collectors in the region we created an Android app to enable them to more easily record data in the field. 
+
+(image: fishackathon.png class:wide)
+
+Built with (link:http://phonegap.com/ text:PhoneGap) and deployed as a native app, the collector can be used with or without an internet connection. Recording data in a digital form means it can be relayed to a central service more easily. The form itself is designed to speed up the data entry process and enhance data with more accurate location data and optional photos of the catch (to identify fish and fear type). 
+
+We had a lot of fun creating the app and although we didn't move on to the final stages of the competition we were glad to have contributed something to managing sustainable fisheries. Learn more about what we made (link:https://github.com/thesoftwarejedi/fishackathon text:on Github). 
+
+
+
+
+
