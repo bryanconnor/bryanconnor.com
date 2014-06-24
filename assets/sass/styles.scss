@@ -69,6 +69,28 @@ body.home{
     }
   }
 
+  .grid{
+    width: 33%;
+    @include box-sizing(border-box);
+    float: left;
+    padding: 50px;
+    img{
+      width: 100%;
+    }
+    h2{
+      font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, serif;
+      line-height:145%;
+      text-align: center;
+      padding-right: 20px;
+      padding-left: 20px;
+      font-size: 16px;
+      a{
+        color: #444 !important;
+        font-size: 26px;
+      }
+    }
+  }
+
   .mailme{
     float: right;
     padding-right: 0px;
@@ -101,16 +123,16 @@ body.home{
       margin-bottom: 14px;
       border: 1px solid #999;
     }
-  }
-  .headline{
-    padding-top: 00px;
-    padding-bottom: 40px;
-    margin-bottom: 35px;
-    background: $base url('../images/homebg2.jpg') no-repeat center bottom;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    &.headline{
+      padding-top: 00px;
+      padding-bottom: 40px;
+      margin-bottom: 0px;
+      background: $base url('../images/homebg2.jpg') no-repeat center bottom;
+      -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
   }
   h1{
     color: darken($base, 10%);
@@ -706,7 +728,7 @@ article.work-item{
 .worklist{
   background: #FFF;
   border-top: 1px solid #eee;
-  padding-top: 100px;
+  padding-top: 70px;
   padding-bottom: 100px;
   text-align: center;
   li{
@@ -716,6 +738,7 @@ article.work-item{
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 20px;
+    @include box-sizing(border-box);
     vertical-align: top;
     text-align: center;
     border-bottom: 1px solid #ddd;
@@ -732,6 +755,7 @@ article.work-item{
       font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, serif;
       padding-top: 20px;
       display: block;
+      font-size: 20px;
       &:hover{
         color: $base;
       }
