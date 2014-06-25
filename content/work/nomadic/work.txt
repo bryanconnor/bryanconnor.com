@@ -12,7 +12,7 @@ Text:
 
 (link:http://nomadic.fm/ text:Nomadic.fm) is a digital learning platform focused on preparing people to build, manage and lead businesses. They consult with academic and enterprise clients to build customized Field Manuals and deliver them to groups of students.
 
-The platform was in need of a redesigned to focus on the content and draw out the social elements of learning in a group. This is where we ended up.
+The platform was in need of a redesign to focus on the content and draw out the social elements of learning in a group. This is where we ended up.
 
 (image: nomadic-bryan-connor-1.png class: wide)
 
