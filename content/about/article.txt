@@ -29,5 +29,5 @@ Get in touch at (email: workwith@bryanconnor.com)
 - Google Hangouts - chat, video calls, audio
 - Lingo - my IRC client of choice
 - Screenhero - collaborative screen sharing, chat and audio
-- Kibry - a superb flat file CMS I use to create simple sites	
+- Kirby - a superb flat file CMS I use to create simple sites	
 - Airmail - for my emailing needs
