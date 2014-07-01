@@ -13,7 +13,7 @@
 	</li>
 	<li>
 		<a href="<?php echo($site->url())?>/work/common-curriculum"><img src="<?php echo( $site->url())?>/assets/images/common-curriculum-snippet.png" /></a>
-		<a href="<?php echo($site->url())?>/work/common-curriculum">Putting Curriculum to the test with Baltimore teachers</a>
+		<a href="<?php echo($site->url())?>/work/common-curriculum">Putting Common Curriculum to the test with Baltimore teachers</a>
 	</li>
 	<li>
 		<a href="<?php echo($site->url())?>/work/step"><img src="<?php echo( $site->url())?>/assets/images/step-snippet.png" /></a>
