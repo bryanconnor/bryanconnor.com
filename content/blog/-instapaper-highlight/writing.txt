@@ -1,0 +1,1 @@
+It might be interesting if @instapaper “unbundled” the highlight feature as a browser extension so that you can highlight text and save articles in one action outside of Instapaper.
