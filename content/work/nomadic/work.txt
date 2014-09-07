@@ -47,7 +47,7 @@ Getting to a complete working platform required lots of iteration along the way.
 
 ## Front-End Development
 
-I had a hand in the front-end development of the tool and was really able to implement my designs with exacting standards. Everything from hover states to animations and responsive breakpoints were written and tested across the platform. This was my first real opportunity to write production level HTML and CSS for a product with a big user base. I wrote a little javascript to illustrate interactions paradigms so that at Nomadic (link:https://github.com/junhonomad text:Jun-Ho) could make them production ready. some of the front-end work was also completed with the help from the team at (link:http://www.inthebackforty.com/ text:Back Forty). 
+I had a hand in the front-end development of the tool and was really able to implement my designs with exacting standards. Everything from hover states to animations and responsive breakpoints were written and tested across the platform. This was my first real opportunity to write production level HTML and CSS for a product with a big user base. I wrote a little javascript to illustrate interactions paradigms so that at Nomadic’s (link:https://github.com/junhonomad text:Jun-Ho) could make them production ready. Some of the front-end work was also completed with the help from the team at (link:http://www.inthebackforty.com/ text:Back Forty). 
 
 The new platform is in the process of being rolled out to institutions and organizations around the globe.
 
