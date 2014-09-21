@@ -1,4 +1,4 @@
-Title: Self Reliance
+Title: Designing in the browser
 ----
 Tags: writing
 ----

@@ -1,0 +1,13 @@
+Title: Sharing Solar Power
+----
+Tags: writing, work,
+----
+Source:
+----
+Text:
+
+I haven’t gotten the opportunity to work with a client in renewable energy but that doesn’t stop me from thinking about the sorts of things we could build together. 
+
+I want to work on a tool that helps owners of solar panels monitor their production and consumption of energy and manage how that energy is sold back to power companies or even shared with friends and neighbors. 
+
+Ikea in the UK has started a (link:http://www.ikea.com/gb/en/campaigns/solar-panels.html text:solar panel program) with (link:http://www.hanergy.co.uk/national text:Hanergy). If and when this comes to the US I’d love to be involved in designing and building some of that software.
