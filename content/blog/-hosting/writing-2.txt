@@ -1,0 +1,15 @@
+Turning things into coherent thoughts is hard. 
+
+Started by thinking about the barriers for artist to get their work online. mixed with my penchant for decentralizing and self hosting things. 
+
+I tweeted about Semplice earlier which seems like it makes it pretty easy for artists to get a great looking portfolio online. Then I realized that the biggest hurdle for artist isn’t really the code itself but buying and managing hosting. 
+
+This suggests a more all-in-one approach but wp engine is the only thing like it. 
+
+I think it’s important for artist to maintain all of the code for their website on their own servers and not rely on big portfolio sites like dribbble or behance. 
+
+But at the same time you’re still relying on your hosting company to not going out of business or dump all of your files. I guess there are more ways around this part though. Files can easily be moved to another provider and you can back things up. 
+
+I guess I’m interested in a set of tools that are even easier to use than wordpress that would allow people to achieve similar results. 
+
+I think dropbox has the potential to be the base-layer for this.  But it lacks the ability to run dynamic files. 

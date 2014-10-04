@@ -1,0 +1,17 @@
+I thought buying and managing hosting was the biggest barrier to  people being able to create their own sustainable social networks but I don’t think that’s the case. 
+
+Mesh networking
+federated wiki
+
+even if you buy hosting you’re still reliant on the hosting company to stay in business. I suppose there will always be another hosting company and you can probably move your files / domain. But it’s so much overhead that’s not accessible to people. 
+
+dropbox is the best example of user-friendly cloud storage. 
+
+Want self hosted, open source and easily deployed software for: 
+- CMS
+- Subscription
+- Comments
+- Forum
+- Wiki
+
+beyond a cms for publishing content I want a set of components that can be added together or used separately
