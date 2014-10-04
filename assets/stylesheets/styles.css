@@ -681,25 +681,68 @@ article.work-item {
         color: #1186e4; }
 
 /* line 766, ../sass/styles.scss */
+.services {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: #fff;
+  padding-bottom: 150px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  /* line 773, ../sass/styles.scss */
+  .services li {
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 20px 20px 40px 20px; }
+    /* line 778, ../sass/styles.scss */
+    .services li h3 {
+      font-weight: 600;
+      display: inline;
+      font-size: 24px;
+      color: #28200E;
+      margin-top: 60px;
+      font-family: "effra-1","effra-2", helvetica, sans-serif;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    /* line 788, ../sass/styles.scss */
+    .services li p {
+      font-size: 20px;
+      line-height: 154%;
+      padding-top: 10px;
+      font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, serif; }
+  @media screen and (max-width: 640px) {
+    /* line 766, ../sass/styles.scss */
+    .services {
+      padding-left: 5%;
+      padding-right: 5%; }
+      /* line 798, ../sass/styles.scss */
+      .services li {
+        width: 100%; } }
+
+/* line 804, ../sass/styles.scss */
 .meta {
   border-top: 1px solid #67b5f4;
   margin-top: 42px; }
-  /* line 770, ../sass/styles.scss */
+  /* line 808, ../sass/styles.scss */
   .meta:after {
     content: ".";
     visibility: hidden;
     clear: both;
     height: 0px; }
 
-/* line 778, ../sass/styles.scss */
+/* line 816, ../sass/styles.scss */
 .team {
   list-style: none;
   display: block; }
-  /* line 781, ../sass/styles.scss */
+  /* line 819, ../sass/styles.scss */
   .team ul {
     display: block;
     float: left; }
-    /* line 784, ../sass/styles.scss */
+    /* line 822, ../sass/styles.scss */
     .team ul li {
       display: inline-block;
       width: 66px;
@@ -710,11 +753,11 @@ article.work-item {
       font-size: 14px;
       line-height: 120%;
       padding-top: 20px; }
-      /* line 794, ../sass/styles.scss */
+      /* line 832, ../sass/styles.scss */
       .team ul li img {
         width: 66px;
         height: auto; }
-    /* line 799, ../sass/styles.scss */
+    /* line 837, ../sass/styles.scss */
     .team ul:after {
       content: ".";
       visibility: hidden;
@@ -722,13 +765,13 @@ article.work-item {
       height: 0px;
       width: 0px;
       text-indent: -9999px; }
-  /* line 808, ../sass/styles.scss */
+  /* line 846, ../sass/styles.scss */
   .team:after {
     content: ".";
     visibility: hidden;
     clear: both;
     height: 0px; }
-  /* line 814, ../sass/styles.scss */
+  /* line 852, ../sass/styles.scss */
   .team .role {
     text-align: left;
     padding: 8px 10px 10px 10px;
@@ -745,7 +788,7 @@ article.work-item {
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
     border-radius: 3px; }
-    /* line 826, ../sass/styles.scss */
+    /* line 864, ../sass/styles.scss */
     .team .role p {
       color: #deeffd;
       font-family: "effra-1","effra-2", helvetica, sans-serif;
@@ -754,18 +797,18 @@ article.work-item {
       display: inline;
       font-size: 14px; }
 
-/* line 837, ../sass/styles.scss */
+/* line 875, ../sass/styles.scss */
 ul.team-bryan {
   display: inline-block;
   float: none;
   margin-left: -6px; }
-  /* line 841, ../sass/styles.scss */
+  /* line 879, ../sass/styles.scss */
   ul.team-bryan li {
     display: block;
     float: left;
     padding-top: 20px; }
 
-/* line 848, ../sass/styles.scss */
+/* line 886, ../sass/styles.scss */
 .left-arrow {
   width: 0;
   height: 0;
@@ -776,10 +819,10 @@ ul.team-bryan {
   top: 13px;
   left: -9px; }
 
-/* line 855, ../sass/styles.scss */
+/* line 893, ../sass/styles.scss */
 .figure {
   position: relative; }
-  /* line 857, ../sass/styles.scss */
+  /* line 895, ../sass/styles.scss */
   .figure .caption {
     position: absolute;
     top: 27px;
@@ -794,16 +837,16 @@ ul.team-bryan {
     font-style: italic; }
 
 @media screen and (max-width: 1000px) {
-  /* line 876, ../sass/styles.scss */
+  /* line 914, ../sass/styles.scss */
   article img.wide {
     width: 600px;
     margin-left: 0; }
 
-  /* line 881, ../sass/styles.scss */
+  /* line 919, ../sass/styles.scss */
   .figure img {
     margin-bottom: 5px !important; }
 
-  /* line 886, ../sass/styles.scss */
+  /* line 924, ../sass/styles.scss */
   .figure .caption {
     position: relative;
     width: 100%;
@@ -816,15 +859,15 @@ ul.team-bryan {
     padding-top: 0px;
     margin-bottom: 20px; } }
 @media screen and (max-width: 900px) {
-  /* line 901, ../sass/styles.scss */
+  /* line 939, ../sass/styles.scss */
   .tagcloud {
     display: none; }
 
-  /* line 905, ../sass/styles.scss */
+  /* line 943, ../sass/styles.scss */
   .home .wrapper.pbskids .container {
     padding-bottom: 0px; }
 
-  /* line 909, ../sass/styles.scss */
+  /* line 947, ../sass/styles.scss */
   .home .wrapper h2 {
     width: 100%;
     padding-right: 20px;
@@ -833,7 +876,7 @@ ul.team-bryan {
     box-sizing: border-box;
     line-height: 125%; }
 
-  /* line 916, ../sass/styles.scss */
+  /* line 954, ../sass/styles.scss */
   .home .wrapper img {
     position: relative;
     margin: 0;
@@ -843,13 +886,13 @@ ul.team-bryan {
     margin-top: 30px;
     margin-bottom: 0px; }
 
-  /* line 926, ../sass/styles.scss */
+  /* line 964, ../sass/styles.scss */
   .home .wrapper {
     padding-bottom: 0px;
     padding-top: 0px;
     margin-bottom: 0px !important; } }
 @media screen and (max-width: 640px) {
-  /* line 935, ../sass/styles.scss */
+  /* line 973, ../sass/styles.scss */
   .container {
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -857,12 +900,12 @@ ul.team-bryan {
     box-sizing: border-box;
     padding: 20px; }
 
-  /* line 941, ../sass/styles.scss */
+  /* line 979, ../sass/styles.scss */
   article img.wide {
     width: 100%;
     margin-left: 0; }
 
-  /* line 946, ../sass/styles.scss */
+  /* line 984, ../sass/styles.scss */
   .worklist {
     padding-left: 20px;
     padding-right: 20px;
@@ -870,16 +913,16 @@ ul.team-bryan {
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
 
-  /* line 952, ../sass/styles.scss */
+  /* line 990, ../sass/styles.scss */
   .worklist li {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px; } }
 @media screen and (max-width: 401px) {
-  /* line 964, ../sass/styles.scss */
+  /* line 1002, ../sass/styles.scss */
   body.home h1 {
     font-size: 2.0em; }
 
-  /* line 970, ../sass/styles.scss */
+  /* line 1008, ../sass/styles.scss */
   body.home h2 {
     font-size: 1.5em; } }
