@@ -773,6 +773,7 @@ article.work-item{
   padding-bottom: 50px;
   @include box-sizing(border-box);
   li{
+    vertical-align: top;
     width: 50%;
     @include box-sizing(border-box);
     display: inline-block;
