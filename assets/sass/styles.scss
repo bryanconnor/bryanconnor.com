@@ -727,6 +727,7 @@ article.work-item{
 
 .worklist{
   background: #FFF;
+  border-bottom: 1px solid #eee;
   border-top: 1px solid #eee;
   padding-top: 70px;
   padding-bottom: 30px;
@@ -767,8 +768,9 @@ article.work-item{
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
-  background: #fff;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  //background: #fff;
+  padding-bottom: 50px;
   @include box-sizing(border-box);
   li{
     width: 50%;
@@ -804,13 +806,21 @@ article.work-item{
 .mail-bottom{
   border: 1px solid #ccc;
   @include border-radius(3px);
-  padding: 10px 13px;
+  padding: 10px 14px 12px 14px;
   text-align: center;
+  margin-bottom: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  &:hover{
+    background: #f2f2f2;
+    //border-color: $base;
+  }
   .typicons-mail{
     font-size: 22px;
     display: inline-block;
-    padding-top: 3px;
     color: #999;
+    position: relative;
+    top: 5px;
   }
 }
 

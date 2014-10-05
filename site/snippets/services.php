@@ -12,11 +12,11 @@
 	<li>
 		<h3>Design</h3>
 		<p>
-			Designing how a product works from top to bottom. We'll work together to organize and pare down features for a more focused and effective product, always keepking empath with the end user as our guiding principle.
+			Designing how a product works from top to bottom. We'll work together to organize and pare down features for a more focused and effective product, always keeping empathy with the end user as our guiding principle.
 		</p>
 	</li><li>
 		<h3>Development</h3>
 		<p>Spanning the critical gap between idea and execution. I can help convert designs to code with HTML, CSS and JavaScript. I'll gladly partner with an in-house dev team or additional freelancers to see the project through to the end.</p>
 	</li>
 </ul>
-<div class="container" style="text-align: center;"><a href="mailto:workwith@bryanconnor.com" class="mail-bottom"><span class="typicons-mail"></span> Get In Touch</a></div>
+<?php snippet('getintouch') ?>
