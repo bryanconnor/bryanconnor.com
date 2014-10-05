@@ -24,6 +24,7 @@
 </div> -->
 
 <?php snippet('worklist') ?>
+<?php snippet('services') ?>
 
 
 
