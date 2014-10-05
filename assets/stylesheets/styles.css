@@ -642,7 +642,7 @@ article.work-item {
   background: #FFF;
   border-top: 1px solid #eee;
   padding-top: 70px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   text-align: center; }
   /* line 734, ../sass/styles.scss */
   .worklist li {
@@ -724,25 +724,42 @@ article.work-item {
         width: 100%; } }
 
 /* line 804, ../sass/styles.scss */
+.mail-bottom {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding: 10px 13px;
+  text-align: center; }
+  /* line 809, ../sass/styles.scss */
+  .mail-bottom .typicons-mail {
+    font-size: 22px;
+    display: inline-block;
+    padding-top: 3px;
+    color: #999; }
+
+/* line 817, ../sass/styles.scss */
 .meta {
   border-top: 1px solid #67b5f4;
   margin-top: 42px; }
-  /* line 808, ../sass/styles.scss */
+  /* line 821, ../sass/styles.scss */
   .meta:after {
     content: ".";
     visibility: hidden;
     clear: both;
     height: 0px; }
 
-/* line 816, ../sass/styles.scss */
+/* line 829, ../sass/styles.scss */
 .team {
   list-style: none;
   display: block; }
-  /* line 819, ../sass/styles.scss */
+  /* line 832, ../sass/styles.scss */
   .team ul {
     display: block;
     float: left; }
-    /* line 822, ../sass/styles.scss */
+    /* line 835, ../sass/styles.scss */
     .team ul li {
       display: inline-block;
       width: 66px;
@@ -753,11 +770,11 @@ article.work-item {
       font-size: 14px;
       line-height: 120%;
       padding-top: 20px; }
-      /* line 832, ../sass/styles.scss */
+      /* line 845, ../sass/styles.scss */
       .team ul li img {
         width: 66px;
         height: auto; }
-    /* line 837, ../sass/styles.scss */
+    /* line 850, ../sass/styles.scss */
     .team ul:after {
       content: ".";
       visibility: hidden;
@@ -765,13 +782,13 @@ article.work-item {
       height: 0px;
       width: 0px;
       text-indent: -9999px; }
-  /* line 846, ../sass/styles.scss */
+  /* line 859, ../sass/styles.scss */
   .team:after {
     content: ".";
     visibility: hidden;
     clear: both;
     height: 0px; }
-  /* line 852, ../sass/styles.scss */
+  /* line 865, ../sass/styles.scss */
   .team .role {
     text-align: left;
     padding: 8px 10px 10px 10px;
@@ -788,7 +805,7 @@ article.work-item {
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
     border-radius: 3px; }
-    /* line 864, ../sass/styles.scss */
+    /* line 877, ../sass/styles.scss */
     .team .role p {
       color: #deeffd;
       font-family: "effra-1","effra-2", helvetica, sans-serif;
@@ -797,18 +814,18 @@ article.work-item {
       display: inline;
       font-size: 14px; }
 
-/* line 875, ../sass/styles.scss */
+/* line 888, ../sass/styles.scss */
 ul.team-bryan {
   display: inline-block;
   float: none;
   margin-left: -6px; }
-  /* line 879, ../sass/styles.scss */
+  /* line 892, ../sass/styles.scss */
   ul.team-bryan li {
     display: block;
     float: left;
     padding-top: 20px; }
 
-/* line 886, ../sass/styles.scss */
+/* line 899, ../sass/styles.scss */
 .left-arrow {
   width: 0;
   height: 0;
@@ -819,10 +836,10 @@ ul.team-bryan {
   top: 13px;
   left: -9px; }
 
-/* line 893, ../sass/styles.scss */
+/* line 906, ../sass/styles.scss */
 .figure {
   position: relative; }
-  /* line 895, ../sass/styles.scss */
+  /* line 908, ../sass/styles.scss */
   .figure .caption {
     position: absolute;
     top: 27px;
@@ -837,16 +854,16 @@ ul.team-bryan {
     font-style: italic; }
 
 @media screen and (max-width: 1000px) {
-  /* line 914, ../sass/styles.scss */
+  /* line 927, ../sass/styles.scss */
   article img.wide {
     width: 600px;
     margin-left: 0; }
 
-  /* line 919, ../sass/styles.scss */
+  /* line 932, ../sass/styles.scss */
   .figure img {
     margin-bottom: 5px !important; }
 
-  /* line 924, ../sass/styles.scss */
+  /* line 937, ../sass/styles.scss */
   .figure .caption {
     position: relative;
     width: 100%;
@@ -859,15 +876,15 @@ ul.team-bryan {
     padding-top: 0px;
     margin-bottom: 20px; } }
 @media screen and (max-width: 900px) {
-  /* line 939, ../sass/styles.scss */
+  /* line 952, ../sass/styles.scss */
   .tagcloud {
     display: none; }
 
-  /* line 943, ../sass/styles.scss */
+  /* line 956, ../sass/styles.scss */
   .home .wrapper.pbskids .container {
     padding-bottom: 0px; }
 
-  /* line 947, ../sass/styles.scss */
+  /* line 960, ../sass/styles.scss */
   .home .wrapper h2 {
     width: 100%;
     padding-right: 20px;
@@ -876,7 +893,7 @@ ul.team-bryan {
     box-sizing: border-box;
     line-height: 125%; }
 
-  /* line 954, ../sass/styles.scss */
+  /* line 967, ../sass/styles.scss */
   .home .wrapper img {
     position: relative;
     margin: 0;
@@ -886,13 +903,13 @@ ul.team-bryan {
     margin-top: 30px;
     margin-bottom: 0px; }
 
-  /* line 964, ../sass/styles.scss */
+  /* line 977, ../sass/styles.scss */
   .home .wrapper {
     padding-bottom: 0px;
     padding-top: 0px;
     margin-bottom: 0px !important; } }
 @media screen and (max-width: 640px) {
-  /* line 973, ../sass/styles.scss */
+  /* line 986, ../sass/styles.scss */
   .container {
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -900,12 +917,12 @@ ul.team-bryan {
     box-sizing: border-box;
     padding: 20px; }
 
-  /* line 979, ../sass/styles.scss */
+  /* line 992, ../sass/styles.scss */
   article img.wide {
     width: 100%;
     margin-left: 0; }
 
-  /* line 984, ../sass/styles.scss */
+  /* line 997, ../sass/styles.scss */
   .worklist {
     padding-left: 20px;
     padding-right: 20px;
@@ -913,16 +930,16 @@ ul.team-bryan {
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
 
-  /* line 990, ../sass/styles.scss */
+  /* line 1003, ../sass/styles.scss */
   .worklist li {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px; } }
 @media screen and (max-width: 401px) {
-  /* line 1002, ../sass/styles.scss */
+  /* line 1015, ../sass/styles.scss */
   body.home h1 {
     font-size: 2.0em; }
 
-  /* line 1008, ../sass/styles.scss */
+  /* line 1021, ../sass/styles.scss */
   body.home h2 {
     font-size: 1.5em; } }

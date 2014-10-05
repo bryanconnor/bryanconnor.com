@@ -729,7 +729,7 @@ article.work-item{
   background: #FFF;
   border-top: 1px solid #eee;
   padding-top: 70px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   text-align: center;
   li{
     width: 25%;
@@ -798,6 +798,19 @@ article.work-item{
     li{
       width: 100%;
     }
+  }
+}
+
+.mail-bottom{
+  border: 1px solid #ccc;
+  @include border-radius(3px);
+  padding: 10px 13px;
+  text-align: center;
+  .typicons-mail{
+    font-size: 22px;
+    display: inline-block;
+    padding-top: 3px;
+    color: #999;
   }
 }
 
