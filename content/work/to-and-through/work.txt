@@ -1,0 +1,24 @@
+Title: Documenting the path to college success with the To & Through Project
+----
+Meta:
+- (image: team-matt.jpg) Tim
+- (image: team-eric.jpg) Adam 
+- (image: team-nate.jpg) Jun-Ho
+----
+Role: 
+Information Architecture, UX Design, UI Design, Prototyping, Front-end Development, QA, Integration
+----
+Text: 
+
+Responsive
+Comprehensive
+Anchor Comparison
+	fixed scroll
+	Windowshade
+Filters
+Visualizations
+	line graph
+	bar charts
+	stacked bars
+Narrative text
+Data Definitions

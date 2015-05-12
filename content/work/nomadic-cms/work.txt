@@ -1,0 +1,35 @@
+Title: Scaling Nomadic’s content creation with an intuitive CMS
+----
+Meta:
+- (image:team-tim.png) Tim
+- (image: team-adam.png) Adam 
+- (image: team-junho.png) Jun-Ho
+----
+Role: 
+Information Architecture, UX Design, UI Design, Prototyping, Front-end Development, QA, Integration
+----
+Text: 
+
+After (link:work/nomadic text: upgrading Nomadic’s learning platform) we turned our attention to how the platform’s content gets produced. Nomadic’s original CMS got the job done but to keep up with a growing roster of clients it needed serious augmentation. 
+
+Versioning, user management, publishing protocols, media management, a reusable section library were all required	 to really speed up and scale content production. 
+
+(image: CMS-Management.png class:wide)
+
+**ADD DRAG AND DROP**
+
+The first step was making sure it was easy to manage programs and the field manuals they contain. A two panel approach made sense to allow field manuals to be moved between programs, especially after they’d be cloned from an original. Entire programs can even be cloned (and subsequently customized) for new clients. All this and more can be achieved on a single screen. 
+
+As authors plan new field manual content they need to be able to explore content already in use. To address this we added the sections and media areas which allow to you search and filter all content currently in use. Drawing from a reusable section library makes for quicker field manual construction and consistency between field manuals and programs.  
+
+(image: CMS-Sections.png class:wide)
+
+
+
+Editing interface itself. 
+
+Fancy editing stuff. adding sections, quizzes, polls, grids, 
+
+reordering sections
+
+Multiple Users. 
