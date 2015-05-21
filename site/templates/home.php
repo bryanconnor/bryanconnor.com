@@ -1,45 +1,63 @@
 <?php snippet('header') ?>
 
-<div class="wrapper headline">
-	<nav class="menu container">
-	  <ul>
-	  	<li><a href="<?php echo $site->url() ?>">Work</a></li>
-	  	<li><a href="<?php echo $site->url() ?>/about">About</a></li>
-	  	<li><a href="<?php echo $site->url() ?>/blog">Everything Else</a></li>
-	  </ul>
-	  <a href="mailto:workwith@bryanconnor.com" class="mailme"><span class="typicons-mail"></span></a>
-	</nav>
-	<div class="container">
-	<!-- <h1>Building digital products from the ground up.</h1> -->
-	<h1>Partnering with great teams to bring products to life.</h1>
-	<a href="mailto:workwith@bryanconnor.com" class="read-case available">Available for new work</a>
-	<!-- <h3>Currently: <a span class="client">PBS KIDS Digital</a>.</h3> -->
-	</div>
+<div id="nomadic-platform" class="royalSlider rsMinW">
+  <div class="rsContent slide1 cover left-text">
+    <div class="text">
+      <h1>Building a new platform for Nomadic.fm learners</h1>
+      <a href="#nomadic-2" class="learn-more">Learn More</a>
+    </div>
+    <div class="image"><img src="<?php echo url('assets/images/commit-snippet.png') ?>" /></div>
+  </div>
+  <div class="rsContent slide2 centered-block">
+    <div class=" text rsABlock" data-move-effect="right">
+      <p><a href="http://nomadic.fm" target="_blank">Nomadic.fm</a> is a digital learning company focused on preparing people to build, manage and lead businesses. They consult with academic and enterprise clients to build customized Field Manuals for students and deliver them through their platform.</p>
+      <p>I worked with the Nomadic team to improve the learning experience on the platform by giving students more tools and focusing the social elements of learning in a group.</p>
+      <ul class="team">
+        <li><img src="<?php echo url('content/work/nomadic/team-tim.png'); ?>"/>Tim</li>
+        <li><img src="<?php echo url('content/work/nomadic/team-matt.png'); ?>"/>Matt</li>
+        <li><img src="<?php echo url('content/work/nomadic/team-junho.png'); ?>"/>Jun Ho</li>
+        <li><img src="<?php echo url('content/work/nomadic/team-bryan.png'); ?>"/>Bryan</li>
+        <li><div class="arr"></div><strong>My Role: </strong>Information Architecture &bull; UX Design &bull; UI Design &bull; Prototyping &bull; Front-end Development</li>
+      </ul>
+    </div>
+  </div>
+  <div class="rsContent slide3 left-text">
+    <div class="text">
+      <p>A huge component of the Nomadic mission is allowing learning to take place anywhere. As a result, the entire platform and all of its learning materials (Field Manuals) are completely web-based and designed to respond to any device. </p>
+    </div>
+    <div class="image"><img src="<?php echo url('assets/images/commit-snippet.png') ?>" / ></div>
+  </div>
 </div>
-<!-- <div class="wrapper pbskids">
-	<div class="container">
-		<h2>Currently working with <span class="client">PBS KIDS Digital</span></h2>
-		<img src="<?php echo url('assets/images/pbs-snippet.png')?>" />
-	</div>
-</div> -->
-
-<?php snippet('worklist') ?>
-<?php snippet('services') ?>
 
 
-
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-<script type="text/javascript" src="assets/js/fixto.min.js"></script>
-
-<script>
-	//$('.readi').fixTo('body');
-	//$('.step').fixTo('body');
-	//$('.commoncurriculum').fixTo('body');
-	//$('.nomadic').fixTo('body');
-	//$('.commit').fixTo('body');
-	//$('.opengov').fixTo('body');
-	//$('.headline').fixTo('body');
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  jQuery.rsCSS3Easing.easeOutBack = 'cubic-bezier(0.175, 0.885, 0.320, 1.275)';
+  $('#nomadic-platform').royalSlider({
+    arrowsNav: true,
+    arrowsNavAutoHide: true,
+    fadeinLoadedSlide: false,
+    controlNavigationSpacing: 0,
+    controlNavigation: 'bullets',
+    imageScaleMode: 'none',
+    imageAlignCenter:true,
+    blockLoop: false,
+    loop: false,
+    numImagesToPreload: 6,
+    transitionType: 'slide',
+    transitionSpeed: 250,
+    keyboardNavEnabled: true,
+    block: {
+      delay: 200
+    },
+    deeplinking: {
+      enabled: true,
+      change: true,
+      prefix: 'nomadic-'
+    }
+  });
+});
 </script>
+
 
 <?php snippet('footer') ?>

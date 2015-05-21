@@ -9,6 +9,12 @@
   <meta name="robots" content="index, follow" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+  <script type="text/javascript" src="<?php echo url('assets/js/jquery.royalslider.custom.min.js')?>"></script>
+
+  
+  <?php echo css('assets/stylesheets/slider.css') ?>
+  <?php echo css('assets/stylesheets/rs-minimal-white.css') ?>
   <?php echo css('assets/stylesheets/styles.css') ?>
   
   <script type="text/javascript" src="//use.typekit.net/fpd1xaz.js"></script>
