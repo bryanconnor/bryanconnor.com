@@ -6,7 +6,7 @@ Source:
 ----
 Text:
 
-<iframe width=“100%” height=“600” scrolling=“no” frameborder=“no” src=“https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209554924&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true”></iframe>
+<iframe width=“100%” height=“600” scrolling=“no” frameborder=“no” src=“https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209554924”></iframe>
 
 On Monocle’s Midori House, guests discussed the outcome of the G7 summit, including the (link:http://www.theguardian.com/world/2015/jun/08/g7-leaders-agree-phase-out-fossil-fuel-use-end-of-century text:declaration to decarbonize the world economy by the end of the century). 
 
