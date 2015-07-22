@@ -13,6 +13,8 @@ $grey-base: #3F4854;
 $bright-base: #1186E4;
 $tab-base: #FBF9F5;
 
+$text: #33302E;
+
 $effra: "effra-1","effra-2", helvetica, sans-serif;
 $tisa: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, serif;
 
@@ -22,6 +24,20 @@ $tisa: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, serif;
     -webkit-transform: translateY(-50%) !important;
     -ms-transform: translateY(-50%) !important;
     transform: translateY(-50%) !important;
+}
+
+@mixin box-sizing {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@mixin background-size {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 * {
@@ -68,10 +84,21 @@ body {
 .royalSlider {
   width: 100%;
   min-height: 780px;
+  .rsOverflow{
+    cursor: auto !important;
+  }
+  .rsBullets{
+    display: none;
+  }
+  &.show-dots{
+    .rsBullets{
+      display: block;
+    }
+  }
 }
 
 .rsContent{
-  box-sizing: border-box;
+  @include box-sizing();
   padding: 5%;
 }
 
@@ -82,14 +109,14 @@ body {
     right: 0;
     width: 80%;
     margin: 0 auto;
-    bottom: 30px;
+    bottom: 50px;
   }
   .rsBullet{
-    padding: 6px 7px 6px 7px;
+    padding: 7px 8px;
     span{
         display: block;
-        width: 9px;
-        height: 9px;
+        width: 10px;
+        height: 10px;
         border-radius: 50%;
         background: #CCC;
         background: rgba(255,255,255,0.5);
@@ -104,16 +131,16 @@ body {
 
 .rsArrow{
   z-index: 1000;
-  bottom: 22px !important;
+  bottom: 5% !important;
   .rsArrowIcn{
     z-index: 1000;
   }
 }
 .rsArrowLeft{
-    right: 50px !important;
+    right: 8% !important;
 }
 .rsArrowRight{
-    right: 20px !important;
+    right: 5% !important;
 }
 
 .rsABlock {
@@ -123,23 +150,7 @@ body {
   top: auto;
 }
 
-$nomadic-cover: #F46948;
-#nomadic-platform{
-  .slide1 {
-    background-color: $nomadic-cover;
-    color:#FFF;
-    .learn-more{
-      background-color: darken(desaturate($nomadic-cover, 14%), 12%);
-    }
-  }
-  .slide2{
-    background-color: darken(desaturate($nomadic-cover, 14%), 8%);
-  }
-  .slide3{
-    background-color: #DCD9CB;
-    color: #33302E;
-  }
-}
+
 
 
 .cover{
@@ -161,11 +172,10 @@ $nomadic-cover: #F46948;
 }
 
 .text{
-  width: 40%;
+  width: 36%;
   @include vertical-align;
-  box-sizing: border-box;
+  @include box-sizing();
   position: relative;
-
   p{
     padding-bottom: 1.5em;
     font-family: $tisa;
@@ -175,13 +185,39 @@ $nomadic-cover: #F46948;
 
     a{
       color: inherit;
+      &:hover{
+        color: $text;
+      }
     }
+  }
+  em{
+    font-style: italic;
+  }
+  aside{
+    font-style: italic;
+    font-size: .85em;
+    @include box-sizing();
+    padding: 14px 16px;
+    color: lighten($text, 15%);
+    background-color: rgba(255,255,255,.35);
+    line-height: .9em;
+    p{
+      padding-bottom: 5px;
+    }
+  }
+  h3{
+    font-family: $effra;
+    font-weight: 800;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
   }
 }
 
 .image{
-  width: 60%;
-  box-sizing: border-box;
+  width: 64%;
+  text-align: center;
+  @include box-sizing();
   height: 100%;
   img{
     @include vertical-align;
@@ -193,7 +229,7 @@ $nomadic-cover: #F46948;
 .left-text{
   .text{
     float: left;
-    padding-right: 40px;
+    padding-right: 60px;
   }
   .image{
     float: right;
@@ -204,7 +240,7 @@ $nomadic-cover: #F46948;
 .right-text{
   .text{
     float: right;
-    padding-left: 40px;
+    padding-left: 60px;
   }
   .image{
     float: left;
@@ -217,6 +253,10 @@ $nomadic-cover: #F46948;
     width: inherit;
     margin: 0 auto;
   }
+}
+
+.center{
+  text-align: center;
 }
 
 .team{
@@ -260,6 +300,223 @@ $nomadic-cover: #F46948;
     }
   }
 }
+
+$nomadic-cover: #F46948;
+#nomadic-platform{
+  .rsContent{
+    background-color: #DCD9CB;
+    color: #33302E;
+  }
+  .slide1 {
+    background-color: $nomadic-cover;
+    color:#FFF;
+    .learn-more{
+      background-color: darken(desaturate($nomadic-cover, 14%), 9%);
+    }
+  }
+  .slide2{
+    background-color: darken(desaturate($nomadic-cover, 14%), 6%);
+    color: #FFF;
+    .team{
+      li{
+        &:last-child{
+          background: #f48062;
+        }
+        .arr{
+          border-right-color: #f48062;
+        }
+      }
+    }
+    a{
+      &:hover{
+        color: #FFF;
+      }
+    }
+  }
+  .slide3{
+    background-color: #DCD9CB;
+    color: #33302E;
+  }
+  .slide4{
+    background: url('../../content/work/nomadic/iterations.gif');
+    @include background-size();
+    color: #FFF;
+    .text{
+      color: #FFF;
+      background-color: darken(desaturate($nomadic-cover, 14%), 6%);
+      padding: 35px 40px;
+      -webkit-box-shadow: 0px 1px 8px 4px rgba(0,0,0, .1);
+      box-shadow: 0px 1px 8px 4px rgba (0,0,0,.1); 
+      @include box-sizing();
+      p{
+        padding-bottom: 0px;
+      }
+    }
+  }
+  .slide-nomadic-closing{
+    background-color: $nomadic-cover;
+    color: #FFF;
+    ul{
+      border-top: 1px solid darken(desaturate($nomadic-cover, 14%), 9%);
+      padding-top: 35px;
+      li{
+        width: 49%;
+        display: inline-block;
+        line-height: 108%;
+        margin-bottom: 35px;
+        img{
+          width: 36px;
+          float: left;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+$nomadic-cms-cover: #2e4156;
+#nomadic-cms{
+  .rsContent{
+    background: #D7E0E5;
+    color: #33302E;
+  }
+  .cms-slide-1 {
+    background-color: $nomadic-cms-cover;
+    color:#FFF;
+    .learn-more{
+      background-color: darken(desaturate($nomadic-cms-cover, 14%), 7%);
+    }
+  }
+  .cms-slide-2{
+    background-color: darken(desaturate($nomadic-cms-cover, 2%), 8%);
+    color: #FFF;
+    a{
+      &:hover{
+        color: #FFF;
+      }
+    }
+  }
+  .cms-slide-4{
+    background: url('../../content/work/nomadic-cms/Nomadic-CMS-Wireframes.gif');
+    @include background-size();
+    color: #FFF;
+    .text{
+      color: #FFF;
+      background-color: darken(desaturate($nomadic-cms-cover, 14%), 7%);
+      padding: 35px 40px;
+      -webkit-box-shadow: 0px 1px 8px 4px rgba(0,0,0, .1);
+      box-shadow: 0px 1px 8px 4px rgba (0,0,0,.1); 
+      @include box-sizing();
+      p{
+        padding-bottom: 0px;
+      }
+    }
+  }
+  .slide-nomadic-cms-closing{
+    background-color: $nomadic-cms-cover;
+    color:#FFF;
+  }
+}
+
+$common-curriculum-cover: #4fc99a;
+#common-curriculum{
+  .rsContent{
+    background: #4fc99a;
+    //background: #f2eede;
+    color: #FFF;
+  }
+  .cc-slide-1{
+    background: $common-curriculum-cover;
+    color: #FFF;
+    .learn-more{
+      background-color: darken(desaturate($common-curriculum-cover, 2%), 12%);
+    }
+  }
+  .cc-slide-2{
+    background-color: darken(desaturate($common-curriculum-cover, 0%), 8%);
+    color: #FFF;
+  }
+  .cc-slide-closing{
+    background: $common-curriculum-cover;
+    color: #FFF;
+
+  }
+}
+
+$commit-cover: #0286a3;
+#commit{
+  .rsContent{
+    background: #4fc99a;
+    //background: #f2eede;
+    background: $commit-cover;
+    color: #FFF;
+  }
+  .commit-slide-1{
+    background: $commit-cover;
+    color: #FFF; 
+    padding-right: 0;
+    .learn-more{
+      background-color: darken(desaturate($commit-cover, 2%), 6%);
+    }
+    .image{
+      //margin-right: -6%;
+    }
+  }
+  .commit-slide-2{
+    background-color: darken(desaturate($commit-cover, 2%), 6%);
+    color: #FFF;
+  }
+  .commit-slide-3{
+    background-color: $commit-cover;
+    background: url('../../content/work/commit/spreads-03.jpg');
+    @include background-size();
+    .text{
+      background: rgba(255, 255, 255, .95);
+      background: $commit-cover;
+      color: #FFF;
+      padding: 35px 40px;
+      -webkit-box-shadow: 0px 1px 8px 4px rgba(0,0,0, .1);
+      box-shadow: 0px 1px 8px 4px rgba (0,0,0,.1); 
+      @include box-sizing();
+    }
+  }
+  .commit-slide-4{
+    background-color: $commit-cover;
+    color: #FFF;
+    padding-right: 0;
+  }
+  .commit-slide-5{
+    background-color: $commit-cover;
+    color: #FFF;
+    padding-right: 0;
+  }
+  .commit-slide-6{
+    background-color: $commit-cover;
+    color: #FFF;
+    padding-right: 0;
+  }
+  .commit-slide-7{
+    background-color: $commit-cover;
+    color: #FFF;
+    padding-right: 0;
+  }
+  .commit-slide-closing{
+    blockquote{
+      color: #59e5fc;
+      font-family: $tisa;
+      font-size: 1.2em;
+      line-height: 1.4em;
+       padding-left: 65px;
+    }
+    .quote-fill{
+      fill: #59e5fc;
+      width: 44px;
+      float:left;
+    }
+  }
+}
+
 
 
 

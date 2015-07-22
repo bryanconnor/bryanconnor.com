@@ -11,6 +11,7 @@
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
   <script type="text/javascript" src="<?php echo url('assets/js/jquery.royalslider.custom.min.js')?>"></script>
+  <script type="text/javascript" src="<?php echo url('assets/js/custom.js')?>"></script>
 
   
   <?php echo css('assets/stylesheets/slider.css') ?>
