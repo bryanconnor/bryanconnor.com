@@ -18,8 +18,8 @@
   <?php echo css('assets/stylesheets/rs-minimal-white.css') ?>
   <?php echo css('assets/stylesheets/styles.css') ?>
   
-  <script type="text/javascript" src="//use.typekit.net/fpd1xaz.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script src="//use.typekit.net/trm4ssz.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
 
   <script type="text/javascript">
   
@@ -38,3 +38,20 @@
 </head>
 
 <body class="<?php echo($page->uid()) ?>">
+
+  <nav>
+    <a href="http://bryanconnor.com">Bryan Connor</a>
+    <ul>
+      <li><a href="">Work</a></li>
+      <li><a href="">Services</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">
+        <svg version="1.1" class="mail-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="27 27 18 18" enable-background="new 27 27 18 18;" xml:space="preserve">
+<path d="M27.9,30.1v11.6h15.9V30.1H27.9z M41.9,32L41.9,32l-6,4.3l-6-4.3l0,0C29.8,32,41.9,32,41.9,32z M29.8,39.8v-5.6l6,4.3l6-4.3
+  v5.6L29.8,39.8L29.8,39.8z"/>
+</svg>
+
+      </a></li>
+    </ul>
+  </nav>
