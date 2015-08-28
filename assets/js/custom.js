@@ -158,7 +158,7 @@ jQuery(document).ready(function($) {
 
 
 
-	$('#nomadic-platform .learn-more').click(function() {
+	$('#nomadic-platform').click(function() {
 		var slider = $('#nomadic-platform').data('royalSlider');
 		slider.next();
     $('#nomadic-cms').data('royalSlider').st.keyboardNavEnabled = false;
@@ -166,16 +166,17 @@ jQuery(document).ready(function($) {
     $('#commit').data('royalSlider').st.keyboardNavEnabled = false;
     $('#step').data('royalSlider').st.keyboardNavEnabled = false;
     $('#readi').data('royalSlider').st.keyboardNavEnabled = false;
-		$('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = true;
-		$('#nomadic-platform').addClass('show-dots');
+	$('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = true;
+	$('#nomadic-platform').addClass('show-dots');
     $('.keyboard-hint').addClass('shown');
     setTimeout(function () { 
         $('.keyboard-hint').removeClass('shown');
     }, 4000);
-		return false;
 	});
 
-	$('#nomadic-cms .learn-more').click(function() {
+
+
+	$('#nomadic-cms').click(function() {
 		var slider = $('#nomadic-cms').data('royalSlider');
 		slider.next();
 		$('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
@@ -189,10 +190,9 @@ jQuery(document).ready(function($) {
     setTimeout(function () { 
         $('.keyboard-hint').removeClass('shown');
     }, 4000);
-		return false;
 	});
 
-  $('#common-curriculum .learn-more').click(function() {
+  $('#common-curriculum').click(function() {
     var slider = $('#common-curriculum').data('royalSlider');
     slider.next();
     $('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
@@ -206,10 +206,9 @@ jQuery(document).ready(function($) {
     setTimeout(function () { 
         $('.keyboard-hint').removeClass('shown');
     }, 4000);
-    return false;
   });
 
-  $('#commit .learn-more').click(function() {
+  $('#commit').click(function() {
     var slider = $('#commit').data('royalSlider');
     slider.next();
     $('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
@@ -223,10 +222,9 @@ jQuery(document).ready(function($) {
     setTimeout(function () { 
         $('.keyboard-hint').removeClass('shown');
     }, 4000);
-    return false;
   });
 
-  $('#step .learn-more').click(function() {
+  $('#step').click(function() {
     var slider = $('#step').data('royalSlider');
     slider.next();
     $('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
@@ -240,10 +238,9 @@ jQuery(document).ready(function($) {
     setTimeout(function () { 
         $('.keyboard-hint').removeClass('shown');
     }, 4000);
-    return false;
   });
 
-  $('#readi .learn-more').click(function() {
+  $('#readi').click(function() {
     var slider = $('#readi').data('royalSlider');
     slider.next();
     $('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
@@ -257,7 +254,6 @@ jQuery(document).ready(function($) {
     setTimeout(function () { 
         $('.keyboard-hint').removeClass('shown');
     }, 4000);
-    return false;
   });
 	
 });

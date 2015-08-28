@@ -40,11 +40,14 @@
 <body class="<?php echo($page->uid()) ?>">
 
   <nav>
-    <a href="http://bryanconnor.com">Bryan Connor</a>
+    <a href="http://bryanconnor.com">
+      <img src="<?php echo url('assets/images/bc-bio-pic.jpg') ?>" alt="Bryan Connor" class="header-pic"/>
+      Bryan Connor
+    </a>
     <ul>
-      <li><a href="">Work</a></li>
-      <li><a href="">Services</a></li>
-      <li><a href="">Blog</a></li>
+      <li><a href="<?php echo html($site->url()) ?>/">Work</a></li>
+      <li><a href="<?php echo html($site->url()) ?>/info">Info</a></li>
+      <li><a href="<?php echo html($site->url()) ?>/blog">Blog</a></li>
       <li><a href="">
         <svg version="1.1" class="mail-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    viewBox="27 27 18 18" enable-background="new 27 27 18 18;" xml:space="preserve">

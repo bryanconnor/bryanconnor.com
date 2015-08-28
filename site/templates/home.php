@@ -219,8 +219,7 @@
   </div>
   <div class="rsContent cc-slide-2 centered-block">
     <div class="text" data-move-effect="none">
-      <p>I sat down with Scott Messigner in April 2012 to talk about his idea for <a href="http://www.commoncurriculum.com/" target="_blank">Common Curriculum</a>.</p>
-      <p>Together we set out to envision a lesson templating system that would help teachers align their curriculum to the Common Core standards.</p>
+      <p>I sat down with Scott Messigner to talk about his idea for <a href="http://www.commoncurriculum.com/" target="_blank">Common Curriculum</a>. Together we set out to envision a lesson templating system that would help teachers align their curriculum to the Common Core standards.</p>
       <ul class="team">
         <li><img src="<?php echo url('content/work/common-curriculum/team-scott.jpg'); ?>"/>Scott</li>
         <li><img src="<?php echo url('content/work/common-curriculum/team-robbie.jpg'); ?>"/>Robbie</li>
@@ -264,7 +263,7 @@
       <div class="center">
       <img src="<?php echo url('content/work/common-curriculum/common-curriculum-logo.png') ?>" style="opacity: .3; width: 400px; margin-bottom: 35px;"/>
       </div>
-      <p>Common Curriculum officially launched in August 2012 with a <a href="http://technical.ly/baltimore/2012/08/23/common-curriculum-online-lesson-planning-for-teachers-officially-launches-at-maxs-taphouse/" target="_blank">party</a> at Max's Tap House in Baltimore. <a href="http://friendsoftheweb.com/" target="_blank">Friends of the Web</a> provided final branding for the tool as well as early working prototypes. Development and design work were eventually taken over by the core team at Common Curriculum who have since launched several new iterations of the tool.</p>
+      <p>Common Curriculum officially launched with a <a href="http://technical.ly/baltimore/2012/08/23/common-curriculum-online-lesson-planning-for-teachers-officially-launches-at-maxs-taphouse/" target="_blank">party</a> at Max's Tap House in Baltimore. <a href="http://friendsoftheweb.com/" target="_blank">Friends of the Web</a> provided final branding for the tool as well as early working prototypes. Development and design work were eventually taken over by the core team at Common Curriculum who have since launched several new iterations of the tool.</p>
     </div>
     
   </div>
@@ -378,15 +377,15 @@
   <div class="rsContent step-slide-3 centered-block">
     <div class="col-third">
       <img src="<?php echo url('content/work/step/2011.gif') ?>" />
-      <p><strong>2011</strong> - A simpler web version of the tool.</p>
+      <p><strong>Version 1</strong> - A simpler web version of the tool.</p>
     </div>
     <div class="col-third">
       <img src="<?php echo url('content/work/step/2012.gif') ?>" />
-      <p><strong>2012</strong> - Updated with more advanced visualizations .</p>
+      <p><strong>Version 2</strong> - Updated with more advanced visualizations .</p>
     </div>
     <div class="col-third">
       <img src="<?php echo url('content/work/step/2013.gif') ?>" />
-      <p><strong>2013</strong> - A complete UI overhaul to incorperate rebranding by UChicago.</p>
+      <p><strong>Version 3</strong> - A complete UI overhaul to incorperate rebranding by UChicago.</p>
     </div>
   </div>
   <div class="rsContent step-slide-4 left-text">
@@ -440,7 +439,7 @@
   </div>
   <div class="rsContent readi-slide-2 centered-block">
     <div class="text" data-move-effect="none">
-      <p>I traveled to Chicago in Spring 2012 for a two day working session to tackle the core application concepts of <a href="http://www.projectreadi.org/" target="_blank">READi</a> with the <a href="http://www.inquirium.net/" target="_blank">Inquirium</a> team. <strong>The task:</strong> create a supported reading environment for high school students struggling with reading comprehension.</p>
+      <p>I met with <a href="http://www.inquirium.net/" target="_blank">Inquirium</a> for a two day working session in Chicago to tackle the core application concepts of <a href="http://www.projectreadi.org/" target="_blank">READi</a>. <strong>The task:</strong> create a supported reading environment for high school students struggling with reading comprehension.</p>
       <ul class="team">
         <li><img src="<?php echo url('content/work/readi/team-matt.jpg'); ?>"/>Matt</li>
         <li><img src="<?php echo url('content/work/readi/team-ben.jpg'); ?>"/>Ben</li>
