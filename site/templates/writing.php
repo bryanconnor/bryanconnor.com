@@ -15,6 +15,7 @@
       <?php if($page->caption() != '' ):?><span class="caption"><?php echo kirbytext($page->caption()) ?></span><?php endif ?>
 
       <div class="articlefoot">
+      	<a href="<?php echo ($site->url())?>/blog" class="all-posts">See All Posts</a>
       </div>
 
     </article>
