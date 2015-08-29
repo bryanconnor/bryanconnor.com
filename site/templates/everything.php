@@ -1,5 +1,4 @@
 <?php snippet('header') ?>
-<?php snippet('menu') ?>
 <div class="container">
 <section class="content">
 
@@ -68,7 +67,7 @@
     <?php endforeach ?>
 
     <?php if($articles->pagination()->hasPages()): ?>
-<nav class="pagination">  
+<div class="pagination">  
 
   <?php if($articles->pagination()->hasNextPage()): ?>
   <a class="old" href="<?php echo $articles->pagination()->nextPageURL() ?>">&lsaquo; older posts</a>
@@ -78,7 +77,7 @@
   <a class="new" href="<?php echo $articles->pagination()->prevPageURL() ?>">newer posts &rsaquo;</a>
   <?php endif ?>
 
-</nav>
+</div>
 <?php endif ?>
 </section>
 
