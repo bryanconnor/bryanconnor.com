@@ -141,7 +141,7 @@
     	<h3>STARTING POINT</h3>
       <p>Nomadic’s original CMS got the job done, but to keep up with a growing roster of clients it needed serious augmentation. Only a few people at the company used the original CMS, and Field Manuals required too much manual customization by developers after the content was in place.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/nomadic-cms/original-cms.jpg') ?>" / ></div>
+    <div class="image "><img src="<?php echo url('content/work/nomadic-cms/original-cms.gif') ?>" / ></div>
 	</div>
 	<div class="rsContent cms-slide-4 centered-block">
     <div class="text">
@@ -153,7 +153,7 @@
     	<h3>THE ADMIN</h3>
       <p>The first step was making sure it was easy to manage programs and the Field Manuals they contain. A two panel approach allows field manuals to be moved between programs, usually after they had be cloned from an original. Entire programs can even be cloned (and later customized) for new clients, all in a single screen.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/nomadic-cms/Nomadic-CMS-Management.png') ?>" / ></div>
+    <div class="image "><img src="<?php echo url('content/work/nomadic-cms/Nomadic-CMS-Management.gif') ?>" / ></div>
 	</div>
 
 	<div class="rsContent cms-slide-6 left-text">
@@ -331,7 +331,7 @@
       <h3>CALLOUTS</h3>
       <p>Supplementary scorecards call out specific areas of the Dallas educational pipline such as early childhood, grades 4-12, and higher education. </p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/commit/scorecards.png') ?>"  /></div>
+    <div class="image "><img src="<?php echo url('content/work/commit/scorecards.gif') ?>"  /></div>
   </div>
   <div class="rsContent commit-slide-9 left-text">
     <div class="text">
@@ -407,7 +407,7 @@
       <h3>STUDENT SNAPSHOT</h3>
       <p>Clicking on an individual student reveals details of the last achieved step as well as the last assessment they didn’t pass. </p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/step/STEP-Bryan-Connor-3.png') ?>" /></div>
+    <div class="image "><img src="<?php echo url('content/work/step/STEP-Bryan-Connor-3.gif') ?>" /></div>
   </div>
   <div class="rsContent step-slide-7 left-text">
     <div class="text">
@@ -435,7 +435,7 @@
       <h1>Envisioning a supported reading experience with Inquirium</h1>
       <a href="" class="learn-more">Learn More</a>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/readi/readi-ipad-horizontal.png') ?>" /></div>
+    <div class="image"><img src="<?php echo url('content/work/readi/readi-ipad-horizontal.gif') ?>" /></div>
   </div>
   <div class="rsContent readi-slide-2 centered-block">
     <div class="text" data-move-effect="none">
