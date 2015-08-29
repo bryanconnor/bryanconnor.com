@@ -19,7 +19,7 @@
   <?php echo css('assets/stylesheets/styles.css') ?>
   
   <script src="//use.typekit.net/trm4ssz.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
   <script type="text/javascript">
   

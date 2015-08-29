@@ -53,7 +53,7 @@
       <p>The first major improvement was a clear library of content. Field Manuals began to feel like independent elements, each with their own title, cover image, and level of completion.</p>
       <aside><p>To read more about how Field Manuals are created, take a look at the <a href="">Nomadic CMS project</a>.</p></aside>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/nomadic/nomadic-bryan-connor-1.png') ?>" / ></div>
+    <div class="image "><img src="<?php echo url('content/work/nomadic/nomadic-bryan-connor-1.jpg') ?>" / ></div>
   </div>
   <div class="rsContent slide-favorites left-text">
     <div class="text ">
