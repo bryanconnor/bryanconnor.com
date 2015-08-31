@@ -20,7 +20,7 @@
       <h1>Building a new platform for Nomadic.fm learners</h1>
       <a href="" class="learn-more">Learn More</a>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/nomadic/library-ipad-2.png') ?>" /></div>
+    <div class="image"><img src="<?php echo url('content/work/nomadic/library-ipad-3.png') ?>" /></div>
   </div>
   <div class="rsContent slide2 centered-block">
     <div class=" text " data-move-effect="none">
@@ -40,7 +40,7 @@
       <h3>STARTING POINT</h3>
       <p>The original platform laid a good foundation but didn’t feel like a coherent digital learning space. </p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/nomadic/original-platform.jpg') ?>" style="width: 90%;" /></div>
+    <div class="image "><img src="<?php echo url('content/work/nomadic/original-platform.gif') ?>" style="width: 90%;" /></div>
   </div>
   <div class="rsContent slide4 centered-block" >
     <div class=" text " data-move-effect="none">
@@ -67,7 +67,7 @@
        <h3>CONVERSATIONS</h3>
       <p>Each Field Manual contains its own debate section but the conversation hub collects them all into one central location. It also allows users to start new conversations, outside of those set up by program administrators, so they can discuss the content on their own terms. </p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/nomadic/conversation-ipad.png') ?>"  style="width: 90%;" /></div>
+    <div class="image "><img src="<?php echo url('content/work/nomadic/conversation-ipad-2.png') ?>"  style="width: 90%;" /></div>
   </div>
   <div class="rsContent slide-notifications right-text">
     <div class="text ">
