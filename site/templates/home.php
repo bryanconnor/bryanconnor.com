@@ -122,7 +122,7 @@
       <h1>Scaling Nomadic's content creation with an intuitive CMS</h1>
       <a href="" class="learn-more">Learn More</a>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/nomadic-cms/nomadic-cms-macbook-front.png') ?>" /></div>
+    <div class="image"><img src="<?php echo url('content/work/nomadic-cms/nomadic-cms-macbook-front-cmp.png') ?>" /></div>
   </div>
   <div class="rsContent cms-slide-2 centered-block">
     <div class="text" data-move-effect="none">
@@ -161,7 +161,7 @@
     	<h3>THE EDITOR</h3>
       <p>The Editor has all the tools the content team needs to create a Field Manual from scratch. Content elements can be anything from text to video, audio, quizzes, polls and discussions. Our goal was to have the creation process reflect the look of the final Field Manual as much as possible.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/nomadic-cms/Nomadic-CMS-Editor.gif') ?>" / ></div>
+    <div class="image "><img src="<?php echo url('content/work/nomadic-cms/Nomadic-CMS-Editor-cmp.gif') ?>" / ></div>
 	</div>
   <div class="rsContent cms-slide-7 left-text">
     <div class="text">
