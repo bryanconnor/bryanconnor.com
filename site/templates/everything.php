@@ -3,48 +3,31 @@
 <section class="content">
 
     <?php 
-      if(param('tag')) {
+      // fetch the basic set of pages
+      $articles = $page->children()->visible()->flip();
 
-        $articles = $pages->find('blog')
-                          ->children()
-                          ->visible()
-                          ->filterBy('tags', param('tag'), ',')
-                          ->flip()
-                          ->paginate(10);
-
-      } else {
-
-        $articles = $pages->find('blog')
-                          ->children()
-                          ->visible()
-                          ->flip()
-                          ->paginate(10);
-
+      // add the tag filter
+      if($tag = param('tag')) {
+        $articles = $articles->filterBy('tags', $tag, ',');
       }
+      
     ?>
 
-    
-<!--     <?php $articlelist = $pages->find('blog')
-                          ->children()
-                          ->visible()
-                          ->flip()
-    ?>
+    <?php
 
-    <ul class="articlelist">
-      <?php foreach($articlelist as $articleitem): ?>
-        <li><a href="<?php echo $articleitem->url() ?>"><?php echo $articleitem->title() ?></a></li>
-      <?php endforeach ?>
-    </ul>
- -->
-    
-    <?php $tags = tagcloud($pages->find('blog'), array('limit' => 20)) ?>
-    
+      // fetch all tags
+      $tags = $page->children()->visible()->pluck('tags', ',', true);
+
+    ?>
     <ul class="tagcloud">
       <?php foreach($tags as $tag): ?>
-        <li><a href="<?php echo $tag->url() ?>"><?php echo $tag->name() ?></a></li>
+      <li>
+        <a href="<?php echo url('blog/tag:' . $tag)?>">
+          <?php echo html($tag) ?>
+        </a>
+      </li>
       <?php endforeach ?>
-        <li><a href="<?php echo $site->url() ?>/blog">everything</a></li>
-
+      <li><a href="<?php echo $site->url() ?>/blog">everything</a></li>
     </ul>
 
     <?php foreach($articles as $article): ?>
