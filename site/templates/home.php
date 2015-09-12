@@ -153,7 +153,7 @@
     	<h3>THE ADMIN</h3>
       <p>The first step was making sure it was easy to manage programs and the Field Manuals they contain. A two panel approach allows field manuals to be moved between programs, usually after they had be cloned from an original. Entire programs can even be cloned (and later customized) for new clients, all in a single screen.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/nomadic-cms/Nomadic-CMS-Management.gif') ?>" / ></div>
+    <div class="image "><img src="<?php echo url('content/work/nomadic-cms/Nomadic-CMS-Management-cmp.gif') ?>" / ></div>
 	</div>
 
 	<div class="rsContent cms-slide-6 left-text">
@@ -168,7 +168,7 @@
       <h3>SECTION &amp; MEDIA LIBRARIES</h3>
       <p>As authors plan new Field Manuals they need to be able to explore content already in use. To address this we added the <strong>Section</strong> and <strong>Media</strong> libraries which allow to you search and filter available content across all Field Manuals. Drawing from a reusable section library makes for faster and more consistent Field Manual construction.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/nomadic-cms/Nomadic-Sections-Media.gif') ?>" style="width: 82%;" /></div>
+    <div class="image "><img src="<?php echo url('content/work/nomadic-cms/Nomadic-Sections-Media-cmp-1.gif') ?>" style="width: 82%;" /></div>
   </div>
   <div class="rsContent cms-slide-8 left-text">
     <div class="text">
@@ -215,7 +215,7 @@
       <h1>Putting Common Curriculum to the test with Baltimore teachers</h1>
       <a href="" class="learn-more">Learn More</a>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/common-curriculum/cc-macbook-side.png') ?>" /></div>
+    <div class="image"><img src="<?php echo url('content/work/common-curriculum/cc-macbook-side-cmp-2.png') ?>" /></div>
   </div>
   <div class="rsContent cc-slide-2 centered-block">
     <div class="text" data-move-effect="none">
@@ -233,7 +233,7 @@
       <h3>EARLY VISION</h3>
       <p>We first worked on a series of wireframes and user flows to illustrate some core application concepts. These were circulated to teacher focus groups and potential investors for feedback.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/common-curriculum/cc-concepts-1.png') ?>" style="width: 86%;" / ></div>
+    <div class="image "><img src="<?php echo url('content/work/common-curriculum/cc-concepts-1.gif') ?>" style="width: 86%;" / ></div>
   </div>
   <div class="rsContent cc-slide-4 left-text">
     <div class="text">
@@ -248,7 +248,7 @@
       <h3>TEMPLATE LIBRARY</h3>
       <p>The system’s key feature is lesson templating. Teachers can build off of example templates, create their own, or share templates with colleages.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/common-curriculum/common-curriculum-bryan-connor-2.png') ?>" style="width: 100%;" / ></div>
+    <div class="image "><img src="<?php echo url('content/work/common-curriculum/common-curriculum-bryan-connor-2.gif') ?>" style="width: 100%;" / ></div>
   </div>
   <div class="rsContent cc-slide-5 left-text">
     <div class="text">
@@ -275,7 +275,7 @@
       <h1>Helping Commit! speak for Dallas area students</h1>
       <a href="" class="learn-more">Learn More</a>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/commit/reading-page.jpg') ?>"  /></div>
+    <div class="image"><img src="<?php echo url('content/work/commit/reading-page-cmp.jpg') ?>"  /></div>
   </div>
   <div class="rsContent commit-slide-2 centered-block">
     <div class="text" data-move-effect="none">
@@ -300,7 +300,7 @@
       <h3>SETTING THE TONE</h3>
       <p>Our first job was to outline the state of affairs by comparing the district’s goals with the actual data. </p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/commit/goal-actual-page.jpg') ?>" />" /></div>
+    <div class="image "><img src="<?php echo url('content/work/commit/goal-actual-page-cmp.jpg') ?>" />" /></div>
   </div>
 
   <div class="rsContent commit-slide-5 left-text">
@@ -308,7 +308,7 @@
       <h3>BREAKDOWNS</h3>
       <p>Because challenges within the student body are not distributed equally, it is important to examine the district by ethnicity, socioeconomic status and English Language Learner status. </p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/commit/demographics-page.jpg') ?>" />" /></div>
+    <div class="image "><img src="<?php echo url('content/work/commit/demographics-page-cmp.jpg') ?>" />" /></div>
   </div>
 
   <div class="rsContent commit-slide-6 left-text">
@@ -316,7 +316,7 @@
       <h3>FOCUS ON READING</h3>
       <p>The report pays special attention to reading ability, highlighting the importance of kindergarten readiness and the gaps in reading ability by ethnicity throughout schooling.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/commit/reading-page.jpg') ?>" />" /></div>
+    <div class="image "><img src="<?php echo url('content/work/commit/reading-page-cmp.jpg') ?>" />" /></div>
   </div>
 
   <div class="rsContent commit-slide-7 left-text">
@@ -324,7 +324,7 @@
       <h3>SCORECARD</h3>
       <p>The scorecard is the heart of the report, documenting the current state of Dallas area students by visualizing their progress along 11 key indicators.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/commit/scorecard-page.jpg') ?>" />" /></div>
+    <div class="image "><img src="<?php echo url('content/work/commit/scorecard-page-cmp.jpg') ?>" />" /></div>
   </div>
   <div class="rsContent commit-slide-8 left-text">
     <div class="text">
@@ -338,7 +338,7 @@
       <h3>PROCESS</h3>
       <p>Each page went through multiple rounds of revisions to hone the message and ensure the clarity of the visualizations. In the end, the report was something we could all be proud of.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/commit/process.jpg') ?>"  /></div>
+    <div class="image "><img src="<?php echo url('content/work/commit/process-cmp.jpg') ?>"  /></div>
   </div>
   
   <div class="rsContent commit-slide-closing centered-block">
