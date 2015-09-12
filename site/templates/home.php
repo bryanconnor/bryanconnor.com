@@ -331,7 +331,7 @@
       <h3>CALLOUTS</h3>
       <p>Supplementary scorecards call out specific areas of the Dallas educational pipline such as early childhood, grades 4-12, and higher education. </p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/commit/scorecards.gif') ?>"  /></div>
+    <div class="image "><img src="<?php echo url('content/work/commit/scorecards-cmp.png') ?>"  /></div>
   </div>
   <div class="rsContent commit-slide-9 left-text">
     <div class="text">
