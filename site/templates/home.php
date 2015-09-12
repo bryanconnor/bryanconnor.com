@@ -360,7 +360,7 @@
       <h1>Designing one STEP at a time with Inquirium</h1>
       <a href="" class="learn-more">Learn More</a>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/step/step-macbook-front.png') ?>" /></div>
+    <div class="image"><img src="<?php echo url('content/work/step/step-macbook-front-cmp.png') ?>" /></div>
   </div>
   <div class="rsContent step-slide-2 centered-block">
     <div class="text" data-move-effect="none">
@@ -407,7 +407,7 @@
       <h3>STUDENT SNAPSHOT</h3>
       <p>Clicking on an individual student reveals details of the last achieved step as well as the last assessment they didn’t pass. </p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/step/STEP-Bryan-Connor-3.gif') ?>" /></div>
+    <div class="image "><img src="<?php echo url('content/work/step/STEP-Bryan-Connor-3-cmp.png') ?>" /></div>
   </div>
   <div class="rsContent step-slide-7 left-text">
     <div class="text">
@@ -435,7 +435,7 @@
       <h1>Envisioning a supported reading experience with Inquirium</h1>
       <a href="" class="learn-more">Learn More</a>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/readi/readi-ipad-horizontal.gif') ?>" /></div>
+    <div class="image"><img src="<?php echo url('content/work/readi/readi-ipad-horizontal-cmp.gif') ?>" /></div>
   </div>
   <div class="rsContent readi-slide-2 centered-block">
     <div class="text" data-move-effect="none">
