@@ -937,14 +937,24 @@ article{
   margin-bottom: 200px;
   img{
     width: 100%;
-    
     border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 10px;
     &.wide{
       width: 1000px;
       margin-left: -200px;
     }
     &.captioned{
       margin-bottom: 0px
+    }
+  }
+  figure{
+    &.wide{
+      width: 1000px;
+      margin-left: -200px;
+      img{
+        
+      }
     }
   }
   ul{
@@ -1188,6 +1198,11 @@ article.work-item{
     margin-left: 0;
   }
 
+  article figure.wide{
+    width: 600px;
+    margin-left: 0;
+  }
+
   .figure img{
     margin-bottom: 5px !important;
   }
@@ -1249,6 +1264,11 @@ article.work-item{
   }
 
   article img.wide{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  article figure.wide{
     width: 100%;
     margin-left: 0;
   }
