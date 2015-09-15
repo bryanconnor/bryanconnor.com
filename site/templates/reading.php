@@ -1,5 +1,4 @@
 <?php snippet('header') ?>
-<?php snippet('menu') ?>
 <div class="container">
 <section class="content">
 
@@ -19,7 +18,7 @@
       <?php endforeach ?>
       <li><a href="<?php echo $site->url() ?>/blog">everything</a></li>
     </ul>
-    
+
 	<article class="reading-item">
       
       <h2><?php echo html($page->title()) ?></h2>
