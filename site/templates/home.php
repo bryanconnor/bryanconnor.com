@@ -18,7 +18,7 @@
   <div class="rsContent slide1 cover left-text">
     <div class="text">
       <h1>Building a new platform for Nomadic.fm learners</h1>
-      <a href="" class="learn-more">Learn More</a>
+      <span class="learn-more">Learn More</span>
     </div>
     <div class="image"><img src="<?php echo url('content/work/nomadic/library-ipad-3.png') ?>" /></div>
   </div>
@@ -120,7 +120,7 @@
   <div class="rsContent cms-slide-1 cover left-text">
     <div class="text">
       <h1>Scaling Nomadic's content creation with an intuitive CMS</h1>
-      <a href="" class="learn-more">Learn More</a>
+      <span class="learn-more">Learn More</span>
     </div>
     <div class="image"><img src="<?php echo url('content/work/nomadic-cms/nomadic-cms-macbook-front-cmp.png') ?>" /></div>
   </div>
@@ -213,7 +213,7 @@
   <div class="rsContent cc-slide-1 cover left-text">
     <div class="text">
       <h1>Putting Common Curriculum to the test with Baltimore teachers</h1>
-      <a href="" class="learn-more">Learn More</a>
+      <span class="learn-more">Learn More</span>
     </div>
     <div class="image"><img src="<?php echo url('content/work/common-curriculum/cc-macbook-side-cmp-2.png') ?>" /></div>
   </div>
@@ -273,7 +273,7 @@
   <div class="rsContent commit-slide-1 cover left-text">
     <div class="text">
       <h1>Helping Commit! speak for Dallas area students</h1>
-      <a href="" class="learn-more">Learn More</a>
+      <span class="learn-more">Learn More</span>
     </div>
     <div class="image"><img src="<?php echo url('content/work/commit/reading-page-cmp.jpg') ?>"  /></div>
   </div>
@@ -358,7 +358,7 @@
   <div class="rsContent step-slide-1 cover left-text">
     <div class="text">
       <h1>Designing one STEP at a time with Inquirium</h1>
-      <a href="" class="learn-more">Learn More</a>
+      <span class="learn-more">Learn More</span>
     </div>
     <div class="image"><img src="<?php echo url('content/work/step/step-macbook-front-cmp.png') ?>" /></div>
   </div>
@@ -433,7 +433,7 @@
   <div class="rsContent readi-slide-1 cover left-text">
     <div class="text">
       <h1>Envisioning a supported reading experience with Inquirium</h1>
-      <a href="" class="learn-more">Learn More</a>
+      <span class="learn-more">Learn More</span>
     </div>
     <div class="image"><img src="<?php echo url('content/work/readi/readi-ipad-horizontal-cmp.gif') ?>" /></div>
   </div>
