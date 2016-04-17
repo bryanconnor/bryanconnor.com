@@ -20,7 +20,7 @@
       <h1>Building a new platform for Nomadic.fm learners</h1>
       <span class="learn-more">Learn More</span>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/nomadic/library-ipad-3.png') ?>" /></div>
+    <div class="image"><a class="rsImg" href="<?php echo url('content/work/nomadic/library-ipad-3.png') ?>"><a/></div>
   </div>
   <div class="rsContent slide2 centered-block">
     <div class=" text " data-move-effect="none">
@@ -122,7 +122,7 @@
       <h1>Scaling Nomadic's content creation with an intuitive CMS</h1>
       <span class="learn-more">Learn More</span>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/nomadic-cms/nomadic-cms-macbook-front-cmp.png') ?>" /></div>
+    <div class="image"><a class="rsImg" href="<?php echo url('content/work/nomadic-cms/nomadic-cms-macbook-front-cmp.png') ?>"><a /></div>
   </div>
   <div class="rsContent cms-slide-2 centered-block">
     <div class="text" data-move-effect="none">
@@ -215,7 +215,7 @@
       <h1>Putting Common Curriculum to the test with Baltimore teachers</h1>
       <span class="learn-more">Learn More</span>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/common-curriculum/cc-macbook-side-cmp-2.png') ?>" /></div>
+    <div class="image"><a class="rsImg" href="<?php echo url('content/work/common-curriculum/cc-macbook-side-cmp-2.png') ?>"><a /></div>
   </div>
   <div class="rsContent cc-slide-2 centered-block">
     <div class="text" data-move-effect="none">
@@ -275,7 +275,7 @@
       <h1>Helping Commit! speak for Dallas area students</h1>
       <span class="learn-more">Learn More</span>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/commit/reading-page-cmp.jpg') ?>"  /></div>
+    <div class="image"><a class="rsImg" href="<?php echo url('content/work/commit/reading-page-cmp.jpg') ?>"><a/></div>
   </div>
   <div class="rsContent commit-slide-2 centered-block">
     <div class="text" data-move-effect="none">
@@ -360,7 +360,7 @@
       <h1>Designing one STEP at a time with Inquirium</h1>
       <span class="learn-more">Learn More</span>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/step/step-macbook-front-cmp.png') ?>" /></div>
+    <div class="image"><a class="rsImg" href="<?php echo url('content/work/step/step-macbook-front-cmp.png') ?>"></a></div>
   </div>
   <div class="rsContent step-slide-2 centered-block">
     <div class="text" data-move-effect="none">
@@ -393,28 +393,28 @@
       <h3>RESULTS</h3>
       <p>The most recent version of the tool has hit its stride with intuitive visualizations that allow teachers to explore the results of reading assessments for individuals students, groups, classes, schools and districts.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/step/STEP-Bryan-Connor-1.png') ?>" /></div>
+    <div class="image "><a class="rsImg" href="<?php echo url('content/work/step/STEP-Bryan-Connor-1.png') ?>"> </a></div>
   </div>
   <div class="rsContent step-slide-5 left-text">
     <div class="text">
       <h3>MICRO &amp; MACRO</h3>
       <p>In this visualization, students are represented by color coded rectangles, giving, at once, a broad and detailed view of student progress.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/step/STEP-Bryan-Connor-2.png') ?>" /></div>
+    <div class="image "><a class="rsImg" href="<?php echo url('content/work/step/STEP-Bryan-Connor-2.png') ?>"></a></div>
   </div>
   <div class="rsContent step-slide-6 left-text">
     <div class="text">
       <h3>STUDENT SNAPSHOT</h3>
       <p>Clicking on an individual student reveals details of the last achieved step as well as the last assessment they didn’t pass. </p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/step/STEP-Bryan-Connor-3-cmp.png') ?>" /></div>
+    <div class="image "><a class="rsImg" href="<?php echo url('content/work/step/STEP-Bryan-Connor-3-cmp.png') ?>"></a></div>
   </div>
   <div class="rsContent step-slide-7 left-text">
     <div class="text">
       <h3>NEW COMPONENTS</h3>
       <p>We've expanded the tool over time in keeping with the information architecture and visual style guide we set up. </p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/step/STEP-Bryan-Connor-4.gif') ?>" /></div>
+    <div class="image "><a class="rsImg" href="<?php echo url('content/work/step/STEP-Bryan-Connor-4.gif') ?>"></a></div>
   </div>
   <div class="rsContent step-slide-8 left-text">
     <div class="text">
@@ -435,7 +435,9 @@
       <h1>Envisioning a supported reading experience with Inquirium</h1>
       <span class="learn-more">Learn More</span>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/readi/readi-ipad-horizontal-cmp.gif') ?>" /></div>
+    <div class="image">
+      <a class="rsImg" href="<?php echo url('content/work/readi/readi-ipad-horizontal-cmp.gif') ?>">Readi iPad mockup</a>
+      </div>
   </div>
   <div class="rsContent readi-slide-2 centered-block">
     <div class="text" data-move-effect="none">
@@ -461,7 +463,7 @@
       <p>By the end of the two days we had defined the broad stokes of the system.</p>
       <p>At the top level, content in READi is organized into units and grouped by subject.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/readi/1-Unit-Library.png') ?>" /></div>
+    <div class="image "><a class="rsImg" href="<?php echo url('content/work/readi/1-Unit-Library.png') ?>"></a></div>
   </div>
   <div class="rsContent readi-slide-5 left-text">
     <div class="text">
@@ -470,14 +472,14 @@
 
       <p>Each unit also has a central argument, notecards created from the primary texts, and organizers to help arrange these notecards into meaningful patterns.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/readi/2-Unit-One.gif') ?>" /></div>
+    <div class="image "><a class="rsImg" href="<?php echo url('content/work/readi/2-Unit-One.gif') ?>"></a></div>
   </div>
   <div class="rsContent readi-slide-6 left-text">
     <div class="text">
       <h3>ANNOTATION</h3>
       <p>Students create notecards by annotating the text: highlighting important plot points, making notes on the text, and tagging things they don’t understand. </p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/readi/4-Text-Notecards.gif') ?>" /></div>
+    <div class="image "><a class="rsImg" href="<?php echo url('content/work/readi/4-Text-Notecards.gif') ?>"></a></div>
   </div>
   <div class="rsContent readi-slide-7 left-text">
     <div class="text">
@@ -486,7 +488,7 @@
 
       <p>This timeline organizer helps students arrange notecards in chronological order and group them by a concept.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/readi/5-Organizer-Timeline.gif') ?>" /></div>
+    <div class="image "><a class="rsImg" href="<?php echo url('content/work/readi/5-Organizer-Timeline.gif') ?>"> </a></div>
   </div>
   <div class="rsContent readi-closing-slide centered-block">
     <div class="text">

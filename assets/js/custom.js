@@ -1,5 +1,9 @@
 jQuery(document).ready(function($) {
 
+    $(function() {
+        $("img").unveil(300);
+    });
+
 	$('#nomadic-platform').royalSlider({
     arrowsNav: false,
     arrowsNavAutoHide: false,

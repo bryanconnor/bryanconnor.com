@@ -11,12 +11,16 @@
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
   <script type="text/javascript" src="<?php echo url('assets/js/jquery.royalslider.custom.min.js')?>"></script>
+  <script type="text/javascript" src="<?php echo url('assets/js/jquery.unveil.js')?>"></script>
+
   <script type="text/javascript" src="<?php echo url('assets/js/custom.js')?>"></script>
 
   
   <?php echo css('assets/stylesheets/slider.css') ?>
   <?php echo css('assets/stylesheets/rs-minimal-white.css') ?>
   <?php echo css('assets/stylesheets/styles.css') ?>
+
+ 
   
   <script src="//use.typekit.net/trm4ssz.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -32,6 +36,8 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
+
+
 
   </script>
 
