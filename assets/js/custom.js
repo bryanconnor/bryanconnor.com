@@ -160,6 +160,32 @@ jQuery(document).ready(function($) {
     }
   });
 
+    $('#nasa').royalSlider({
+    arrowsNav: false,
+    arrowsNavAutoHide: false,
+    fadeinLoadedSlide: true,
+    controlNavigation: 'bullets',
+    imageScaleMode: 'none',
+    imageAlignCenter:false,
+    sliderDrag: false,
+    navigateByClick: false,
+    sliderTouch: true,
+    numImagesToPreload: 1,
+    transitionType: 'move',
+    transitionSpeed: 400,
+    keyboardNavEnabled: true,
+    addActiveClass: true,
+    slidesSpacing: 0,
+    block: {
+      delay: 0
+    },
+    deeplinking: {
+      enabled: true,
+      change: true,
+      prefix: 'nasa-'
+    }
+  });
+
 
 
 	$('#nomadic-platform').click(function() {
@@ -246,6 +272,22 @@ jQuery(document).ready(function($) {
 
   $('#readi').click(function() {
     var slider = $('#readi').data('royalSlider');
+    slider.next();
+    $('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
+    $('#nomadic-cms').data('royalSlider').st.keyboardNavEnabled = false;
+    $('#common-curriculum').data('royalSlider').st.keyboardNavEnabled = false;
+    $('#commit').data('royalSlider').st.keyboardNavEnabled = false;
+    $('#step').data('royalSlider').st.keyboardNavEnabled = false;
+    $('#readi').data('royalSlider').st.keyboardNavEnabled = true;
+    $('#readi').addClass('show-dots');
+    $('.keyboard-hint').addClass('shown');
+    setTimeout(function () { 
+        $('.keyboard-hint').removeClass('shown');
+    }, 4000);
+  });
+
+    $('#nasa').click(function() {
+    var slider = $('#nasa').data('royalSlider');
     slider.next();
     $('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
     $('#nomadic-cms').data('royalSlider').st.keyboardNavEnabled = false;

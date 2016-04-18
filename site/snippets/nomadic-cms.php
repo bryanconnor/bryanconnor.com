@@ -4,7 +4,7 @@
       <h1>Scaling Nomadic's content creation with an intuitive CMS</h1>
       <span class="learn-more">Learn More</span>
     </div>
-    <div class="image"><a class="rsImg" href="<?php echo url('content/work/nomadic-cms/nomadic-cms-macbook-front-cmp.png') ?>"><a /></div>
+    <div class="image"><a class="rsImg" href="<?php echo url('content/work/nomadic-cms/nomadic-cms-macbook-front-cmp.png') ?>"></a></div>
   </div>
   <div class="rsContent cms-slide-2 centered-block">
     <div class="text" data-move-effect="none">

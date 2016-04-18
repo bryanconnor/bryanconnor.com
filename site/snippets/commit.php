@@ -4,7 +4,7 @@
       <h1>Helping Commit! speak for Dallas area students</h1>
       <span class="learn-more">Learn More</span>
     </div>
-    <div class="image"><a class="rsImg" href="<?php echo url('content/work/commit/reading-page-cmp.jpg') ?>"><a/></div>
+    <div class="image"><a class="rsImg" href="<?php echo url('content/work/commit/reading-page-cmp.jpg') ?>"></a></div>
   </div>
   <div class="rsContent commit-slide-2 centered-block">
     <div class="text" data-move-effect="none">

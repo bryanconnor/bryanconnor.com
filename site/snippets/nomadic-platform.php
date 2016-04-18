@@ -4,7 +4,7 @@
       <h1>Building a new platform for Nomadic.fm learners</h1>
       <span class="learn-more">Learn More</span>
     </div>
-    <div class="image"><a class="rsImg" href="<?php echo url('content/work/nomadic/library-ipad-3.png') ?>"><a/></div>
+    <div class="image ipad-front"><a class="rsImg" href="<?php echo url('content/work/nomadic/nomadic-platform-ipad-2.jpg') ?>"></a></div>
   </div>
   <div class="rsContent slide2 centered-block">
     <div class=" text " data-move-effect="none">
