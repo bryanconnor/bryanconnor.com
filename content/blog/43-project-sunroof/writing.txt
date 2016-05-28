@@ -4,11 +4,12 @@ Tags: writing, reading,
 ----
 Text: 
 
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container"><iframe src="https://www.youtube.com/embed/_BXf_h8tEes?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class=‘embed-container’><iframe  src=“https://www.youtube.com/embed/_BXf_h8tEes?rel=0” frameborder=“0” allowfullscreen></iframe></div>
 
+<p></p>
 
-Google’s (link:https://www.google.com/get/sunroof#p=0 text:Project Sunroof) makes the tricky business of estimating energy savings from a solar panel installation strikingly simple by combining massive datasets and aerial imagery.
+<p>Google’s (link:https://www.google.com/get/sunroof#p=0 text:Project Sunroof) makes the tricky business of estimating energy savings from a solar panel installation strikingly simple by combining massive datasets and aerial imagery.<p>
 
 The fight against climate changes is a war of economics. Entities at every scale are more motivated to make climate-conscious changes the more those changes benefit the bottom line. Project Sunroof makes that benefit obvious and easy to calculate, replacing a vague sense of doing the right thing with a practical justification. Beyond the big data calculations, Project Sunroof provides information on the solar installation process and will also put you in touch with solar providers in your area. A great example of a massive company helping out the little guy for the greater good.
 
