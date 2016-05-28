@@ -15,9 +15,6 @@
   </div>
 </div>
 
-<?php snippet('nasa') ?>
-
-<?php snippet('toandthrough') ?>
 
 <?php snippet('nomadic-platform') ?>
 
