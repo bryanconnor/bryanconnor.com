@@ -18,7 +18,7 @@
 
 <?php snippet('nomadic-platform') ?>
 
-<?php snippet('nomadic-cms') ?>
+<?php snippet('nasa') ?>
 
 <?php snippet('common-curriculum') ?>
 
