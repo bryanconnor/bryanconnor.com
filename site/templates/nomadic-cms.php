@@ -1,9 +1,15 @@
 <?php snippet('header') ?>
 <div id="nomadic-cms" class="royalSlider rsMinW">
-  
+  <div class="rsContent cms-slide-1 cover left-text">
+    <div class="text">
+      <h1>Scaling Nomadic's content creation with an intuitive CMS</h1>
+      <span class="learn-more">Continue Reading</span>
+    </div>
+    <div class="image"><a class="rsImg" href="<?php echo url('content/work/nomadic-cms/nomadic-cms-macbook-front-cmp.png') ?>"></a></div>
+  </div>
   <div class="rsContent cms-slide-2 centered-block">
     <div class="text" data-move-effect="none">
-      <p>After <a href="#nomadic-platform-1">upgrading Nomadic’s learning platform</a> we turned our attention to how the platform’s content is produced. The goal was to enable the content team to create and customize Field Manuals more quickly and easily for clients, supporting Nomadic’s growth strategy.</p>
+      <p>After <a href="<?php echo html($site->url()) ?>/work/nomadic">upgrading Nomadic’s learning platform</a> we turned our attention to how the platform’s content is produced. The goal was to enable the content team to create and customize Field Manuals more quickly and easily for clients, supporting Nomadic’s growth strategy.</p>
       <ul class="team">
         <li><img src="<?php echo url('content/work/nomadic-cms/team-tim.png'); ?>"/>Tim</li>
         <li><img src="<?php echo url('content/work/nomadic-cms/team-adam.png'); ?>"/>Adam</li>
