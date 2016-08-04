@@ -6,7 +6,7 @@
       <h1>Putting Common Curriculum to the test with Baltimore teachers</h1>
       <a href="" class="learn-more">Learn More</a>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/common-curriculum/cc-macbook-side.png') ?>" /></div>
+    <div class="image"><a class="rsImg" href="<?php echo url('content/work/common-curriculum/common-curriculum-cover.gif') ?>"></a></div>
   </div>
   <div class="rsContent cc-slide-2 centered-block">
     <div class="text" data-move-effect="none">

@@ -22,8 +22,6 @@
 
 <?php snippet('common-curriculum') ?>
 
-<?php snippet('commit') ?>
-
 <?php snippet('step') ?>
 
 <?php snippet('readi') ?>

@@ -461,6 +461,35 @@ nav{
   }
 }
 
+$super-vision-cover: #1cacdc;
+#super-vision{
+  .rsContent{
+    background-color: $super-vision-cover;
+    color: #FFF;
+    a{
+      &:hover{
+        color: #FFF;
+      }
+    }
+  }
+  .slide1 {
+    background-color: $super-vision-cover;
+    color:#FFF;
+    .learn-more{
+      background-color: #1877af;
+      &:hover{
+        background-color: darken(desaturate(#1877af, 9%), 9%);
+      }
+    }
+    .sv-ios-front{
+      width: 375px;
+      //bottom: 0px;
+      right: 230px;
+      position: absolute;
+    }
+  }
+}
+
 $nomadic-cover: #F46948;
 #nomadic-platform{
   .rsContent{
@@ -611,6 +640,9 @@ $common-curriculum-cover: #4fc99a;
       &:hover{
         background-color: darken(desaturate($common-curriculum-cover, 2%), 16%);
       }
+    }
+    .image img{
+      width:90%;
     }
   }
   .cc-slide-2{
