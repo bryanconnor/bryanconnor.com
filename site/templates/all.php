@@ -1,5 +1,7 @@
 <?php snippet('header') ?>
 
+
+
 <div class="keyboard-hint">
   <img src="<?php echo url('assets/images/keyboard-hint.png') ?>" />
 </div>
@@ -18,7 +20,11 @@
 
 <?php snippet('nomadic-platform') ?>
 
+<?php snippet('nomadic-cms') ?>
+
 <?php snippet('nasa') ?>
+
+<?php snippet('commit') ?>
 
 <?php snippet('common-curriculum') ?>
 
@@ -28,9 +34,7 @@
 
 
 
-
-
+<script type="text/javascript" src="<?php echo url('assets/js/all.js')?>"></script>
 
 <?php snippet('footer') ?>
 
-  <script type="text/javascript" src="<?php echo url('assets/js/custom.js')?>"></script>

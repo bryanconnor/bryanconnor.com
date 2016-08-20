@@ -58,7 +58,7 @@ $('#super-vision').click(function() {
     <div class=" text " data-move-effect="none">
       <p>The <a href="https://itunes.apple.com/us/app/pbs-kids-super-vision/id857797513">PBS KIDS Super Vision app</a> is part of  wave of shows, games and apps all funded by a <a href="http://www2.ed.gov/programs/rtltv/index.html">Department of Education grant.</a></p>
 
-      <p>I worked with the PBS KIDS Digital team to overhaul the existing Super Vision app to better communicate to parents the research-based approach that PBS KIDS takes to educational games.</p>
+      <p>I worked with the PBS KIDS Digital team to overhaul the existing Super Vision app to better communicate the real learning power of games to parents<!-- . to parents the research-based approach that PBS KIDS takes to educational games. --></p>
       <!-- <ul class="team">
         <li><img src="<?php echo url('content/work/nomadic/team-tim.png'); ?>"/>Tim</li>
         <li><img src="<?php echo url('content/work/nomadic/team-matt.png'); ?>"/>Matt</li>

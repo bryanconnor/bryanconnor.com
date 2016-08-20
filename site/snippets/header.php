@@ -13,7 +13,6 @@
   <script type="text/javascript" src="<?php echo url('assets/js/jquery.royalslider.custom.min.js')?>"></script>
   <script type="text/javascript" src="<?php echo url('assets/js/jquery.unveil.js')?>"></script>
 
-  <script type="text/javascript" src="<?php echo url('assets/js/custom.js')?>"></script>
 
   
   <?php echo css('assets/stylesheets/slider.css') ?>

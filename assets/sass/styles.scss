@@ -175,6 +175,15 @@ nav{
     position: relative;
     top: 4px;
   }
+  a{
+    color: #FFF;
+    opacity: .7;
+  }
+  .mail-icon{
+    fill: #FFF;
+    opacity: .7;
+  }
+  
 }
 
 .splash{
@@ -875,29 +884,21 @@ section.content {
 
 /* BLOG STYLES */
 
-.home{
+
+.info, .blog{
   nav{
     a{
-      color: #FFF;
-      opacity: .7;
+      color: $base;
+      color: #888;
     }
     .mail-icon{
-      fill: #FFF;
-      opacity: .7;
+      fill: $base;
+      fill: #888;
     }
   }
 }
 
-nav{
-  a{
-    color: $base;
-    color: #888;
-  }
-  .mail-icon{
-    fill: $base;
-    fill: #888;
-  }
-}
+
 
 .info{
   h2{
