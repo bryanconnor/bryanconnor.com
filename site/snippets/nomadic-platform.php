@@ -8,7 +8,7 @@
   </div>
   <div class="rsContent slide2 centered-block">
     <div class=" text " data-move-effect="none">
-      <p><a href="http://nomadic.fm" target="_blank">Nomadic.fm</a> is a digital learning company focused on preparing people to build, manage and lead businesses. They consult with academic and enterprise clients to build customized Field Manuals for students and deliver them through their platform.</p>
+      <p><a href="http://nomadic.fm" target="_blank" class="rsNoDrag">Nomadic.fm</a> is a digital learning company focused on preparing people to build, manage and lead businesses. They consult with academic and enterprise clients to build customized Field Manuals for students and deliver them through their platform.</p>
       <p>I worked with the Nomadic team to improve the learning experience on the platform by giving students better tools and shifting focus towards the social elements of learning.</p>
       <ul class="team">
         <li><img src="<?php echo url('content/work/nomadic/team-tim.png'); ?>"/>Tim</li>
@@ -35,8 +35,8 @@
     <div class="text ">
       <h3>THE LIBRARY</h3>
       <p>The first major improvement was a clear library of content. Field Manuals began to feel like independent elements, each with their own title, cover image, and level of completion.</p>
-      <aside><p>To read more about how Field Manuals are created, take a look at the <a href="">Nomadic CMS project</a>.</p></aside>
-    </div>
+<!--       <aside><p>To read more about how Field Manuals are created, take a look at the <a href="">Nomadic CMS project</a>.</p></aside>
+ -->    </div>
     <div class="image "><img src="<?php echo url('content/work/nomadic/nomadic-bryan-connor-1.jpg') ?>" / ></div>
   </div>
   <div class="rsContent slide-favorites left-text">
