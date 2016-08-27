@@ -85,6 +85,7 @@
   </div>
 </div>
 
+<script type="text/javascript" src="<?php echo url('assets/js/all.js')?>"></script>
 
 
 <?php snippet('footer') ?>

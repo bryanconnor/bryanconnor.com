@@ -472,6 +472,15 @@ nav{
 
 $super-vision-cover: #1cacdc;
 #super-vision{
+  .hidden-team{
+    display: none;
+  }
+  .more-toggle{
+    cursor: pointer;
+    img{
+      cursor: pointer;
+    }
+  }
   .rsContent{
     background-color: $super-vision-cover;
     color: #FFF;
