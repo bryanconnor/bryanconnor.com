@@ -33,4 +33,4 @@
 
 <?php snippet('footer') ?>
 
-  <script type="text/javascript" src="<?php echo url('assets/js/custom.js')?>"></script>
+<script type="text/javascript" src="<?php echo url('assets/js/home.js')?>"></script>
