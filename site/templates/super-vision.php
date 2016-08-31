@@ -103,7 +103,7 @@ $('.more-toggle').click(function() {
   <div class="rsContent sv-slide-closing centered-block ">
     <div class="text">
       <!-- <img src="<?php echo url('content/work/super-vision/sv-icon.png') ?>" style="width: 120px; margin-bottom: 30px;" /> -->
-      <p>As a critical parent communication tool, Super Vision is still under development by PBS KIDS (and myself) and in future will include connections to more PBS KIDS apps and new parent tools.</p>
+      <p>As a critical parent communication tool, Super Vision is still under development and in future will include connections to more PBS KIDS apps and new parent tools.</p>
 
       <p>If you’ve got a PBS KID, download the app now!</p>
 
