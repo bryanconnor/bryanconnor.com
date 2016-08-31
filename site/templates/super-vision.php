@@ -100,15 +100,15 @@ $('.more-toggle').click(function() {
     </div>
     <div class="image "><img src="<?php echo url('content/work/super-vision/sv-testing.jpg') ?>" style="width: 80%;" /></div>
   </div>
-  <div class="rsContent sv-slide-closing centered-block center">
+  <div class="rsContent sv-slide-closing centered-block ">
     <div class="text">
-      <img src="<?php echo url('content/work/super-vision/sv-icon.png') ?>" style="width: 120px; margin-bottom: 30px;" />
+      <!-- <img src="<?php echo url('content/work/super-vision/sv-icon.png') ?>" style="width: 120px; margin-bottom: 30px;" /> -->
       <p>As a critical parent communication tool, Super Vision is still under development by PBS KIDS (and myself) and in future will include connections to more PBS KIDS apps and new parent tools.</p>
 
       <p>If you’ve got a PBS KID, download the app now!</p>
 
       <a href="https://itunes.apple.com/us/app/pbs-kids-super-vision/id857797513" target="_blank"><img src="<?php echo url('content/work/super-vision/app-store.png') ?>" style="width: 170px; margin-right: 12px" /></a>
-      <!-- <a href=""><img src="<?php echo url('content/work/super-vision/google-play.png') ?>" style="width: 170px" /></a> -->
+      <a href="https://play.google.com/store/apps/details?id=org.pbskids.supervision" target="_blank"><img src="<?php echo url('content/work/super-vision/google-play.png') ?>" style="width: 170px" /></a>
       <!-- <ul>
         <li>
           <img src="<?php echo url('content/work/nomadic/icon-welcome.png') ?>" /> 
