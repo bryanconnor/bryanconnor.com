@@ -95,7 +95,7 @@ $('.more-toggle').click(function() {
   <div class="rsContent sv-slide-testing left-text">
     <div class="text ">
        <h3>PARENT TESTING</h3>
-      <p>The app was tested with parents on paper (for language, tone, and data comprehension) an in interactive form (for broader navigational concepts and user preferences). This testing was crucial for the app’s direction and our perceptions of who our users really are.</p>
+      <p>The app was tested with parents on paper (for language, tone, and data comprehension) and in interactive form (for broader navigational concepts and user preferences). This testing was crucial for the app’s direction and our perceptions of who our users really are.</p>
     </div>
     <div class="image "><img src="<?php echo url('content/work/super-vision/sv-testing-2.jpg') ?>" style="width: 80%;" /></div>
   </div>
