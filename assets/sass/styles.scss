@@ -490,6 +490,11 @@ $super-vision-cover: #1cacdc;
       }
     }
   }
+  .sv-slide-testing{
+    img{
+      border: 10px solid #FFF;
+    }
+  }
   .slide1 {
     background-color: $super-vision-cover;
     color:#FFF;
