@@ -5,30 +5,30 @@ jQuery(document).ready(function($) {
     });
 
     $('#super-vision').royalSlider({
-    arrowsNav: false,
-    arrowsNavAutoHide: false,
-    fadeinLoadedSlide: true,
-    controlNavigation: 'bullets',
-    imageScaleMode: 'none',
-    imageAlignCenter:false,
-    sliderDrag: false,
-    navigateByClick: true,
-    sliderTouch: true,
-    numImagesToPreload: 1,
-    transitionType: 'move',
-    transitionSpeed: 400,
-    keyboardNavEnabled: true,
-    addActiveClass: true,
-    slidesSpacing: 0,
-    block: {
-      delay: 0
-    },
-    deeplinking: {
-      enabled: true,
-      change: true,
-      prefix: 'super-vision-'
-    }
-  });
+        arrowsNav: false,
+        arrowsNavAutoHide: false,
+        fadeinLoadedSlide: true,
+        controlNavigation: 'bullets',
+        imageScaleMode: 'none',
+        imageAlignCenter:false,
+        sliderDrag: false,
+        navigateByClick: true,
+        sliderTouch: true,
+        numImagesToPreload: 1,
+        transitionType: 'move',
+        transitionSpeed: 400,
+        keyboardNavEnabled: true,
+        addActiveClass: true,
+        slidesSpacing: 0,
+        block: {
+          delay: 0
+        },
+        deeplinking: {
+          enabled: true,
+          change: true,
+          prefix: 'super-vision-'
+        }
+    });
 
 
 	$('#nomadic-platform').royalSlider({

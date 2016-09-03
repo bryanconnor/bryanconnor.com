@@ -59,13 +59,13 @@
     </div>
     <div class="image"><img src="<?php echo url('content/work/nomadic-cms/Nomadic-Versioning.jpg') ?>" style="width: 90%;" /></div>
   </div>
-  <div class="rsContent cms-slide-9 left-text">
+ <!--  <div class="rsContent cms-slide-9 left-text">
     <div class="text">
       <h3>WHO'S THERE?</h3>
       <p>My favorite little feature is an indicator in the bottom right that lets you know when someone else is editing the same Field Manual as you.</p>
     </div>
     <div class="image "><img src="<?php echo url('content/work/nomadic-cms/Nomadic-Multi-User.gif') ?>" style="width: 74%;" / ></div>
-  </div>
+  </div> -->
   <div class="rsContent slide-nomadic-cms-closing centered-block">
     <div class="text">
       <p>The new CMS has allowed Nomadic to scale up its content production and reach a record number of new clients with curated and customized content. Read more about some of Nomadic’s strategies and outcomes on <a href="http://blog.nomadic.fm/post/115090454617/quality-at-scale-solving-the-digital-learning" target="_blank">their blog.</a></p>

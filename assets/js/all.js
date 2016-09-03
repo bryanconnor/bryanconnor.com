@@ -4,6 +4,31 @@ jQuery(document).ready(function($) {
         $("img").unveil(300);
     });
 
+    $('#super-vision').royalSlider({
+        arrowsNav: false,
+        arrowsNavAutoHide: false,
+        fadeinLoadedSlide: true,
+        controlNavigation: 'bullets',
+        imageScaleMode: 'none',
+        imageAlignCenter:false,
+        sliderDrag: false,
+        navigateByClick: true,
+        sliderTouch: true,
+        numImagesToPreload: 1,
+        transitionType: 'move',
+        transitionSpeed: 400,
+        keyboardNavEnabled: true,
+        addActiveClass: true,
+        slidesSpacing: 0,
+        block: {
+          delay: 0
+        },
+        deeplinking: {
+          enabled: true,
+          change: true,
+          prefix: 'super-vision-'
+        }
+    });
 
 	$('#nomadic-platform').royalSlider({
     arrowsNav: false,
@@ -13,7 +38,7 @@ jQuery(document).ready(function($) {
     imageScaleMode: 'none',
     imageAlignCenter:false,
     sliderDrag: false,
-    navigateByClick: false,
+    navigateByClick: true,
     sliderTouch: true,
     numImagesToPreload: 1,
     transitionType: 'move',
@@ -39,7 +64,7 @@ jQuery(document).ready(function($) {
     imageScaleMode: 'none',
     imageAlignCenter:false,
     sliderDrag: false,
-    navigateByClick: false,
+    navigateByClick: true,
     sliderTouch: true,
     numImagesToPreload: 1,
     transitionType: 'move',
@@ -65,7 +90,7 @@ jQuery(document).ready(function($) {
     imageScaleMode: 'none',
     imageAlignCenter:false,
     sliderDrag: false,
-    navigateByClick: false,
+    navigateByClick: true,
     sliderTouch: true,
     numImagesToPreload: 1,
     transitionType: 'move',
@@ -91,7 +116,7 @@ jQuery(document).ready(function($) {
     imageScaleMode: 'none',
     imageAlignCenter:false,
     sliderDrag: false,
-    navigateByClick: false,
+    navigateByClick: true,
     sliderTouch: true,
     numImagesToPreload: 1,
     transitionType: 'move',
@@ -117,7 +142,7 @@ jQuery(document).ready(function($) {
     imageScaleMode: 'none',
     imageAlignCenter:false,
     sliderDrag: false,
-    navigateByClick: false,
+    navigateByClick: true,
     sliderTouch: true,
     numImagesToPreload: 1,
     transitionType: 'move',
@@ -143,7 +168,7 @@ jQuery(document).ready(function($) {
     imageScaleMode: 'none',
     imageAlignCenter:false,
     sliderDrag: false,
-    navigateByClick: false,
+    navigateByClick: true,
     sliderTouch: true,
     numImagesToPreload: 1,
     transitionType: 'move',
@@ -169,7 +194,7 @@ jQuery(document).ready(function($) {
     imageScaleMode: 'none',
     imageAlignCenter:false,
     sliderDrag: false,
-    navigateByClick: false,
+    navigateByClick: true,
     sliderTouch: true,
     numImagesToPreload: 1,
     transitionType: 'move',
@@ -214,38 +239,35 @@ jQuery(document).ready(function($) {
 //   });
 
 
-  //   $('#super-vision').royalSlider({
-  //   arrowsNav: false,
-  //   arrowsNavAutoHide: false,
-  //   fadeinLoadedSlide: true,
-  //   controlNavigation: 'bullets',
-  //   imageScaleMode: 'none',
-  //   imageAlignCenter:false,
-  //   sliderDrag: false,
-  //   navigateByClick: false,
-  //   sliderTouch: true,
-  //   numImagesToPreload: 1,
-  //   transitionType: 'move',
-  //   transitionSpeed: 400,
-  //   keyboardNavEnabled: true,
-  //   addActiveClass: true,
-  //   slidesSpacing: 0,
-  //   block: {
-  //     delay: 0
-  //   },
-  //   deeplinking: {
-  //     enabled: true,
-  //     change: true,
-  //     prefix: 'super-vision-'
-  //   }
-  // });
+  $('#super-vision').click(function() {
+        // var slider = $('#super-vision').data('royalSlider');
+        // slider.next();
+    $('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
+    $('#nomadic-cms').data('royalSlider').st.keyboardNavEnabled = false;
+    $('#common-curriculum').data('royalSlider').st.keyboardNavEnabled = false;
+    $('#step').data('royalSlider').st.keyboardNavEnabled = false;
+    $('#readi').data('royalSlider').st.keyboardNavEnabled = false;
+    $('#nasa').data('royalSlider').st.keyboardNavEnabled = false;
+    $('#commit').data('royalSlider').st.keyboardNavEnabled = false;
+    $('#super-vision').data('royalSlider').st.keyboardNavEnabled = true;
+    $('#super-vision').addClass('show-dots');
+    $('.keyboard-hint').addClass('shown');
+    setTimeout(function () { 
+        $('.keyboard-hint').removeClass('shown');
+    }, 4000);
+  });
+    $('.more-toggle').click(function() {
+      $('.initial-team').toggleClass('hidden-team');
+      $('.supplemental-team').toggleClass('hidden-team');
+    });
 
 
    
 
 	$('#nomadic-platform').click(function() {
-		var slider = $('#nomadic-platform').data('royalSlider');
-		slider.next();
+		//var slider = $('#nomadic-platform').data('royalSlider');
+		//slider.next();
+    $('#super-vision').data('royalSlider').st.keyboardNavEnabled = false;
     $('#nomadic-cms').data('royalSlider').st.keyboardNavEnabled = false;
     $('#common-curriculum').data('royalSlider').st.keyboardNavEnabled = false;
     $('#commit').data('royalSlider').st.keyboardNavEnabled = false;
@@ -265,9 +287,10 @@ jQuery(document).ready(function($) {
 
 
 	$('#nomadic-cms').click(function() {
-		var slider = $('#nomadic-cms').data('royalSlider');
-		slider.next();
-		$('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
+		//var slider = $('#nomadic-cms').data('royalSlider');
+		//slider.next();
+    $('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
+    $('#super-vision').data('royalSlider').st.keyboardNavEnabled = false;
     $('#common-curriculum').data('royalSlider').st.keyboardNavEnabled = false;
     $('#commit').data('royalSlider').st.keyboardNavEnabled = false;
     $('#step').data('royalSlider').st.keyboardNavEnabled = false;
@@ -284,8 +307,9 @@ jQuery(document).ready(function($) {
 	});
 
   $('#common-curriculum').click(function() {
-    var slider = $('#common-curriculum').data('royalSlider');
-    slider.next();
+    //var slider = $('#common-curriculum').data('royalSlider');
+    //slider.next();
+    $('#super-vision').data('royalSlider').st.keyboardNavEnabled = false;
     $('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
     $('#nomadic-cms').data('royalSlider').st.keyboardNavEnabled = false;
     $('#commit').data('royalSlider').st.keyboardNavEnabled = false;
@@ -303,8 +327,9 @@ jQuery(document).ready(function($) {
   });
 
   $('#commit').click(function() {
-    var slider = $('#commit').data('royalSlider');
-    slider.next();
+    //var slider = $('#commit').data('royalSlider');
+    //slider.next();
+    $('#super-vision').data('royalSlider').st.keyboardNavEnabled = false;
     $('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
     $('#nomadic-cms').data('royalSlider').st.keyboardNavEnabled = false;
     $('#common-curriculum').data('royalSlider').st.keyboardNavEnabled = false;
@@ -322,8 +347,9 @@ jQuery(document).ready(function($) {
   });
 
   $('#step').click(function() {
-    var slider = $('#step').data('royalSlider');
-    slider.next();
+    //var slider = $('#step').data('royalSlider');
+    //slider.next();
+    $('#super-vision').data('royalSlider').st.keyboardNavEnabled = false;
     $('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
     $('#nomadic-cms').data('royalSlider').st.keyboardNavEnabled = false;
     $('#common-curriculum').data('royalSlider').st.keyboardNavEnabled = false;
@@ -341,8 +367,9 @@ jQuery(document).ready(function($) {
   });
 
   $('#readi').click(function() {
-    var slider = $('#readi').data('royalSlider');
-    slider.next();
+    //var slider = $('#readi').data('royalSlider');
+    //slider.next();
+    $('#super-vision').data('royalSlider').st.keyboardNavEnabled = false;
     $('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
     $('#nomadic-cms').data('royalSlider').st.keyboardNavEnabled = false;
     $('#common-curriculum').data('royalSlider').st.keyboardNavEnabled = false;
@@ -361,8 +388,9 @@ jQuery(document).ready(function($) {
   });
 
     $('#nasa').click(function() {
-    var slider = $('#nasa').data('royalSlider');
-    slider.next();
+    //var slider = $('#nasa').data('royalSlider');
+    //slider.next();
+    $('#super-vision').data('royalSlider').st.keyboardNavEnabled = false;
     $('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
     $('#nomadic-cms').data('royalSlider').st.keyboardNavEnabled = false;
     $('#common-curriculum').data('royalSlider').st.keyboardNavEnabled = false;
@@ -397,24 +425,6 @@ jQuery(document).ready(function($) {
   //       $('.keyboard-hint').removeClass('shown');
   //   }, 4000);
   // });
-
- // $('#super-vision').click(function() {
- //        var slider = $('#super-vision').data('royalSlider');
- //        slider.next();
- //    //$('#nomadic-cms').data('royalSlider').st.keyboardNavEnabled = false;
- //    $('#common-curriculum').data('royalSlider').st.keyboardNavEnabled = false;
- //    //$('#commit').data('royalSlider').st.keyboardNavEnabled = false;
- //    $('#step').data('royalSlider').st.keyboardNavEnabled = false;
- //    $('#readi').data('royalSlider').st.keyboardNavEnabled = false;
- //    //$('#toandthrough').data('royalSlider').st.keyboardNavEnabled = false;
- //    $('#nasa').data('royalSlider').st.keyboardNavEnabled = false;
- //    $('#nomadic-platform').data('royalSlider').st.keyboardNavEnabled = false;
- //    $('#super-vision').data('royalSlider').st.keyboardNavEnabled = true;
- //    $('#super-vision').addClass('show-dots');
- //    $('.keyboard-hint').addClass('shown');
- //    setTimeout(function () { 
- //        $('.keyboard-hint').removeClass('shown');
- //    }, 4000);
- //    });
+  
 	
 });

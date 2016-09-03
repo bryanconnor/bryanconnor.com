@@ -18,6 +18,8 @@
 </div>
 
 
+<?php snippet('super-vision') ?>
+
 <?php snippet('nomadic-platform') ?>
 
 <?php snippet('nomadic-cms') ?>
