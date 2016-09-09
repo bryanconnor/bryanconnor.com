@@ -77,7 +77,7 @@ $('.more-toggle').click(function() {
     </div>
   </div>
   <div class="rsContent sv-slide-realtime left-text">
-    <div class="text"  style="left: 140px;">
+    <div class="text">
       <h3>REAl-TIME LEARNING</h3>
       <p>PBS KIDS Super Vision gives parents a real-time feed of what their kids are playing and learning across several PBS KIDS experiences.</p>
 

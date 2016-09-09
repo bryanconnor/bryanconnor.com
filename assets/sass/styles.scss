@@ -29,6 +29,14 @@ $tisa: "ff-tisa-web-pro", Georgia, serif;
     transform: translateY(-50%) !important;
 }
 
+@mixin no-vertical-align {
+  position: relative;
+  top: inherit;
+    -webkit-transform: translateY(0) !important;
+    -ms-transform: translateY(0) !important;
+    transform: translateY(0) !important;
+}
+
 @mixin box-sizing {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -183,7 +191,16 @@ nav{
     fill: #FFF;
     opacity: .7;
   }
-  
+  @media screen and (max-width: 800px){
+    .homelink{
+      span{
+        display: none;
+      }
+    }
+    ul li{
+      padding: 0px 3px;
+    }
+  }
 }
 
 .splash{
@@ -246,7 +263,8 @@ nav{
 
 .royalSlider {
   width: 100%;
-  min-height: 780px;
+  //min-height: 780px;
+  height: 95vh;
   .rsOverflow{
     cursor: auto !important;
   }
@@ -257,6 +275,9 @@ nav{
     .rsBullets{
       display: block;
     }
+  }
+  @media screen and (max-width: 800px){
+    //overflow: scroll;
   }
 }
 
@@ -324,6 +345,9 @@ nav{
     line-height: 105%; 
     font-size: 1.8em;
     margin-bottom: 25px;
+    @media screen and (max-width: 800px){
+      font-size:1.5em;
+    }
   }
   .learn-more{
     text-decoration: none;
@@ -336,7 +360,74 @@ nav{
       
     }
   }
+  .text{
+   
+  }
+  @media screen and (max-width: 800px){
+    .text{
+      margin-top: 4px;
+    }
+    .image{
+      padding-top: 20%;
+    }
+  }
 }
+
+.image{
+  width: 64%;
+  text-align: center;
+  @include box-sizing();
+  height: 100%;
+  img{
+    @include vertical-align;
+    width: 100%
+  }
+  @media screen and (max-width: 1080px){
+    width: 55%;
+  }
+  @media screen and (max-width: 800px){
+    width: 100%;
+    @include no-vertical-align;
+    height: auto;
+    max-width: 100%;
+    img{
+      top: inherit;
+      @include no-vertical-align;
+      height: auto;
+      width: 100%;
+    }
+  }
+
+}
+
+
+.left-text{
+  .text{
+    float: left;
+    padding-right: 60px;
+    @media screen and (max-width: 800px){
+      padding-right: 0px;
+    }
+  }
+  .image{
+    float: right;
+  }
+}
+
+
+.right-text{
+  .text{
+    float: right;
+    padding-left: 60px;
+    @media screen and (max-width: 800px){
+      padding-left: 0px;
+    }
+  }
+  .image{
+    float: left;
+  }
+}
+
 
 .text{
   width: 36%;
@@ -379,52 +470,30 @@ nav{
     //letter-spacing: 1px;
     margin-bottom: 24px;
   }
-}
-
-.image{
-  width: 64%;
-  text-align: center;
-  @include box-sizing();
-  height: 100%;
-  img{
-    @include vertical-align;
-    width: 100%
+  @media screen and (max-width: 1080px){
+    width: 45%;
+  }
+  @media screen and (max-width: 800px){
+    width: 100%;
+    @include no-vertical-align;
+    margin-top: 40px;
+    h3{
+      margin-bottom: 12px;
+      font-size: 1em;
+    }
+    p{
+      font-size: 1em;
+    }
   }
 }
 
 
-.left-text{
-  .text{
-    float: left;
-    padding-right: 60px;
-  }
-  .image{
-    float: right;
-  }
-}
-
-
-.right-text{
-  .text{
-    float: right;
-    padding-left: 60px;
-  }
-  .image{
-    float: left;
-  }
-}
-
-.centered-block{
-  .text{
-    max-width: 700px;
-    width: inherit;
-    margin: 0 auto;
-  }
-}
 
 .center{
   text-align: center;
 }
+
+
 
 .team{
   li{
@@ -490,8 +559,19 @@ $super-vision-cover: #1cacdc;
       }
     }
   }
+  .sv-slide-realtime, .sv-slide-reports{
+    .text{
+      left: 140px;
+    }
+    .image{
+      img{
+        width: 35%;
+      }
+    }
+  }
   .sv-slide-testing{
     img{
+      width: 80%;
       border: 10px solid #FFF;
     }
   }
@@ -509,6 +589,26 @@ $super-vision-cover: #1cacdc;
       //bottom: 0px;
       right: 230px;
       position: absolute;
+      @media screen and (max-width: 1080px){
+        right:10%;
+        width: 35%;
+      }
+    }
+    .image{
+      @media screen and(max-width:800px){
+        width: 100%;
+        height: 50%;
+        right: 0%;
+        position: relative; 
+        overflow: hidden;
+        text-align: left;
+        border-bottom: 1px solid #0f7fc1;
+        margin-bottom: 10px;
+        img{
+          width: 80%;
+          height: auto;
+        }
+      }
     }
   }
 }
@@ -570,6 +670,7 @@ $nomadic-cover: #F46948;
       -webkit-box-shadow: 0px 1px 8px 4px rgba(0,0,0, .1);
       box-shadow: 0px 1px 8px 4px rgba (0,0,0,.1); 
       @include box-sizing();
+      @include vertical-align;
       p{
         padding-bottom: 0px;
       }
@@ -666,6 +767,9 @@ $common-curriculum-cover: #4fc99a;
     }
     .image img{
       width:90%;
+      @media screen and(max-width:800px){
+        width: 100%;
+      }
     }
   }
   .cc-slide-2{
@@ -834,7 +938,10 @@ $nasa-alt: #3236ee;
       }
     }
     .image{
-      width: 59%;
+      max-width: 59%;
+      @media screen and(max-width:800px){
+        max-width: 100%;
+      }
     }
   }
 }

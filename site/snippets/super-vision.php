@@ -1,10 +1,11 @@
 <div id="super-vision" class="royalSlider rsMinW">
   <div class="rsContent slide1 cover left-text">
+    <div class="image sv-ios-front"><a class="rsImg" href="<?php echo url('content/work/super-vision/sv-phone.gif') ?>"></a></div>
     <div class="text">
       <h1>Giving parents the power of Super Vision with PBS KIDS</h1>
       <span class="learn-more">Learn More</span>
     </div>
-    <div class="image sv-ios-front"><a class="rsImg" href="<?php echo url('content/work/super-vision/sv-phone.gif') ?>"></a></div>
+    
   </div>
   <div class="rsContent slide2 centered-block">
     <div class=" text" data-move-effect="none">
@@ -25,27 +26,27 @@
     </div>
   </div>
   <div class="rsContent sv-slide-realtime left-text">
-    <div class="text"  style="left: 140px;">
+    <div class="text">
       <h3>REAl-TIME LEARNING</h3>
       <p>PBS KIDS Super Vision gives parents a real-time feed of what their kids are playing and learning across several PBS KIDS experiences.</p>
 
       <p>Connections to <a href="http://pbskids.org">PBSKIDS.org</a> and the <a href="http://pbskids.org/apps/pbs-kids-measure-up.html">PBS KIDS Measure Up!</a> app are currently supported.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/super-vision/sv-realtime.gif') ?>" style="width: 35%;" /></div>
+    <div class="image "><img src="<?php echo url('content/work/super-vision/sv-realtime.gif') ?>" /></div>
   </div>
   <div class="rsContent sv-slide-reports left-text">
-    <div class="text" style="left: 140px;">
+    <div class="text">
       <h3>DETAILED REPORTS</h3>
       <p>Some games and apps support a deeper level of integration with PBS KIDS Super Vision. This allows parents to track the skills in which their kids excel, and the skills where they may need more practice.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/super-vision/sv-report.gif') ?>" style="width: 35%;" /></div>
+    <div class="image "><img src="<?php echo url('content/work/super-vision/sv-report.gif') ?>"  /></div>
   </div>
   <div class="rsContent sv-slide-testing left-text">
     <div class="text ">
        <h3>PARENT TESTING</h3>
       <p>The app was tested with parents on paper (for language, tone, and data comprehension) and in interactive form (for broader navigational concepts and user preferences). This testing was crucial for the app’s direction and our perceptions of who our users really are.</p>
     </div>
-    <div class="image "><img src="<?php echo url('content/work/super-vision/sv-testing-2.jpg') ?>" style="width: 80%;" /></div>
+    <div class="image "><img src="<?php echo url('content/work/super-vision/sv-testing-2.jpg') ?>" /></div>
   </div>
   <div class="rsContent sv-slide-closing centered-block ">
     <div class="text">

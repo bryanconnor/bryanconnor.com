@@ -45,9 +45,9 @@
 <body class="<?php echo($page->uid()) ?>">
 
   <nav>
-    <a href="http://bryanconnor.com">
+    <a href="http://bryanconnor.com" class="homelink">
       <img src="<?php echo url('assets/images/bc-bio-pic.jpg') ?>" alt="Bryan Connor" class="header-pic"/>
-      Bryan Connor
+      <span>Bryan Connor</span>
     </a>
     <ul>
       <li><a href="<?php echo html($site->url()) ?>/">Work</a></li>

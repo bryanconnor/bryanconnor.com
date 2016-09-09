@@ -1,12 +1,13 @@
 <div id="readi" class="royalSlider rsMinW">
   <div class="rsContent readi-slide-1 cover left-text">
+    <div class="image">
+      <a class="rsImg" href="<?php echo url('content/work/readi/readi-ipad-horizontal-cmp.gif') ?>">Readi iPad mockup</a>
+    </div>
     <div class="text">
       <h1>Envisioning a supported reading experience with Inquirium</h1>
       <span class="learn-more">Learn More</span>
     </div>
-    <div class="image">
-      <a class="rsImg" href="<?php echo url('content/work/readi/readi-ipad-horizontal-cmp.gif') ?>">Readi iPad mockup</a>
-      </div>
+    
   </div>
   <div class="rsContent readi-slide-2 centered-block">
     <div class="text" data-move-effect="none">
@@ -27,37 +28,41 @@
     </div>
   </div>
   <div class="rsContent readi-slide-4 left-text">
+    <div class="image "><a class="rsImg" href="<?php echo url('content/work/readi/1-Unit-Library.png') ?>"></a></div>
     <div class="text">
       <h3>RESULTS</h3>
       <p>By the end of the two days we had defined the broad stokes of the system.</p>
       <p>At the top level, content in READi is organized into units and grouped by subject.</p>
     </div>
-    <div class="image "><a class="rsImg" href="<?php echo url('content/work/readi/1-Unit-Library.png') ?>"></a></div>
+    
   </div>
   <div class="rsContent readi-slide-5 left-text">
+    <div class="image "><a class="rsImg" href="<?php echo url('content/work/readi/2-Unit-One.gif') ?>"></a></div>
     <div class="text">
       <h3>STRUCTURE</h3>
       <p>Each unit contains a number of sections that have background texts (B) to set the stage as well as primary texts (T) on which students focus activity.</p>
 
       <p>Each unit also has a central argument, notecards created from the primary texts, and organizers to help arrange these notecards into meaningful patterns.</p>
     </div>
-    <div class="image "><a class="rsImg" href="<?php echo url('content/work/readi/2-Unit-One.gif') ?>"></a></div>
+    
   </div>
   <div class="rsContent readi-slide-6 left-text">
+    <div class="image "><a class="rsImg" href="<?php echo url('content/work/readi/4-Text-Notecards.gif') ?>"></a></div>
     <div class="text">
       <h3>ANNOTATION</h3>
       <p>Students create notecards by annotating the text: highlighting important plot points, making notes on the text, and tagging things they don’t understand. </p>
     </div>
-    <div class="image "><a class="rsImg" href="<?php echo url('content/work/readi/4-Text-Notecards.gif') ?>"></a></div>
+    
   </div>
   <div class="rsContent readi-slide-7 left-text">
+    <div class="image "><a class="rsImg" href="<?php echo url('content/work/readi/5-Organizer-Timeline.gif') ?>"> </a></div>
     <div class="text">
       <h3>ORGANIZATION</h3>
       <p>Notecards can be arranged into different frameworks (organizers) to help students synthesize the text.</p>
 
       <p>This timeline organizer helps students arrange notecards in chronological order and group them by a concept.</p>
     </div>
-    <div class="image "><a class="rsImg" href="<?php echo url('content/work/readi/5-Organizer-Timeline.gif') ?>"> </a></div>
+    
   </div>
   <div class="rsContent readi-closing-slide centered-block">
     <div class="text">
