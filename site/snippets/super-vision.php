@@ -27,7 +27,7 @@
   </div>
   <div class="rsContent sv-slide-realtime left-text">
     <div class="text">
-      <h3>REAl-TIME LEARNING</h3>
+      <h3>REAL-TIME LEARNING</h3>
       <p>PBS KIDS Super Vision gives parents a real-time feed of what their kids are playing and learning across several PBS KIDS experiences.</p>
 
       <p>Connections to <a href="http://pbskids.org">PBSKIDS.org</a> and the <a href="http://pbskids.org/apps/pbs-kids-measure-up.html">PBS KIDS Measure Up!</a> app are currently supported.</p>
