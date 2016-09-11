@@ -143,6 +143,9 @@ body {
   &.shown{
     bottom: -4px;
   }
+  @media screen and (max-width: 1024px){
+    display: none;
+  }
 }
 
 nav{
@@ -307,6 +310,7 @@ nav{
 .rsContent{
   @include box-sizing();
   padding: 5%;
+  overflow: scroll;
 }
 
 
@@ -545,10 +549,12 @@ nav{
     font-weight: bold;
     line-height: 130%;
     float: left;
+
     img{
       width: 66px;
       height: auto;
     }
+
     &:last-child{
       width: 200px;
       background: rgba(255,255,255, .20);
@@ -573,6 +579,15 @@ nav{
         border-right: 10px solid rgba(255,255,255, .20);
         position: absolute;
         left: -10px;
+      }
+    }
+    @media screen and (max-width: 375px){
+      margin-right: 6px;
+      img{
+        width: 55px;
+      }
+      &:last-child{
+        width: 186px;
       }
     }
   }
