@@ -65,7 +65,7 @@
     </div>
   </div>
   <div class="rsContent step-slide-8 left-text">
-    <div class="image" style="position: relative; top: 12%;">
+    <div class="image">
       <div class="embed-container">
         <iframe src="https://www.youtube.com/embed/bqUFmAw8w0s?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>

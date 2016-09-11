@@ -1,12 +1,16 @@
 <div id="readi" class="royalSlider rsMinW">
   <div class="rsContent readi-slide-1 cover left-text">
+   
     <div class="image">
       <a class="rsImg" href="<?php echo url('content/work/readi/readi-ipad-horizontal-cmp.gif') ?>">Readi iPad mockup</a>
     </div>
+
     <div class="text">
       <h1>Envisioning a supported reading experience with Inquirium</h1>
       <span class="learn-more">Learn More</span>
     </div>
+
+    
     
   </div>
   <div class="rsContent readi-slide-2 centered-block">

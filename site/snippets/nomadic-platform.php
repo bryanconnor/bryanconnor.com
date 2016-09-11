@@ -22,7 +22,7 @@
     </div>
   </div>
   <div class="rsContent slide-original left-text">
-    <div class="image "><img src="<?php echo url('content/work/nomadic/original-platform.gif') ?>" style="width: 90%;" />
+    <div class="image "><img src="<?php echo url('content/work/nomadic/original-platform.gif') ?>"  />
     </div>
     <div class="text ">
       <h3>STARTING POINT</h3>
@@ -45,15 +45,15 @@
     
   </div>
   <div class="rsContent slide-favorites left-text">
-    <div class="image "><img src="<?php echo url('content/work/nomadic/favorites.png') ?>" style="width: 90%;" /></div>
+    <div class="image "><img src="<?php echo url('content/work/nomadic/favorites.png') ?>" /></div>
     <div class="text ">
        <h3>HYPERTEXT</h3>
       <p>While each field manual is self-contained, its elements are accessible in different ways throughout the platform. For example, text and video can be favorited for quick reference at a later date.</p>
     </div>
     
   </div>
-  <div class="rsContent slide-favorites left-text">
-    <div class="image "><img src="<?php echo url('content/work/nomadic/conversation-ipad-2.png') ?>"  style="width: 90%;" /></div>
+  <div class="rsContent slide-conversations left-text">
+    <div class="image "><img src="<?php echo url('content/work/nomadic/conversation-ipad-2.png') ?>" /></div>
     <div class="text ">
        <h3>CONVERSATIONS</h3>
       <p>Each Field Manual contains its own debate section but the conversation hub collects them all into one central location. It also allows users to start new conversations, outside of those set up by program administrators, so they can discuss the content on their own terms. </p>
@@ -90,19 +90,19 @@
       <ul>
         <li>
           <img src="<?php echo url('content/work/nomadic/icon-welcome.png') ?>" /> 
-          Welcome page for students and administrators
+          <p>Welcome page for students and administrators</p>
         </li>
         <li>
           <img src="<?php echo url('content/work/nomadic/icon-analytics.png') ?>" />
-          Analytics on learning and engagement for teachers and administrators
+          <p>Analytics on learning and engagement for teachers and administrators</p>
         </li>
         <li>
           <img src="<?php echo url('content/work/nomadic/icon-notes.png') ?>" />
-          Teaching notes for content and quizzes used in classroom review
+          <p>Teaching notes for content and quizzes used in classroom review</p>
         </li>
         <li>
           <img src="<?php echo url('content/work/nomadic/icon-upload.png') ?>" />
-          Dedicated resource management feature for uploaded documents
+          <p>Dedicated resource management feature for uploaded documents</p>
         </li>
       </ul>
     </div>

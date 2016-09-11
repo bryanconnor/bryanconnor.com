@@ -259,6 +259,29 @@ nav{
       }
     }
   }
+  @media screen and (max-width: 768px){
+    height: 470px;
+    .splash-left{
+      width: 100%;
+      float: none;
+      display: block;
+      height: 300px;
+    }
+    .splash-right{
+      width: 100%;
+      float: none;
+      display: block;
+      height: 140px;
+    }
+    .plus{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 480px){
+    h1{
+      font-size: 1.5em;
+    }
+  }
 }
 
 .royalSlider {
@@ -345,7 +368,7 @@ nav{
     line-height: 105%; 
     font-size: 1.8em;
     margin-bottom: 25px;
-    @media screen and (max-width: 800px){
+    @media screen and (max-width: 680px){
       font-size:1.5em;
     }
   }
@@ -493,6 +516,22 @@ nav{
   text-align: center;
 }
 
+.centered-block{
+  .text{
+    margin: 0 auto;
+    width: 50%;
+    @media screen and (max-width: 1080px){
+      width: 65%;
+    }
+    @media screen and (max-width: 800px){
+      width: 100%;
+    }
+    @media screen and (max-width: 800px){
+      padding-top: 40px;
+    }
+  }
+}
+
 
 
 .team{
@@ -568,11 +607,32 @@ $super-vision-cover: #1cacdc;
         width: 35%;
       }
     }
+    @media screen and (max-width: 800px){
+      .text{
+        left: 0px;
+      }
+      .image{
+        img{
+          width: 50%;
+        }
+      }
+    }
+    @media screen and (max-width: 480px){
+      .image{
+        img{
+          width: 80%;
+        }
+      }
+    }
   }
   .sv-slide-testing{
     img{
       width: 80%;
       border: 10px solid #FFF;
+      box-sizing: border-box;
+      @media screen and (max-width: 800px){
+        width: 100%;
+      }
     }
   }
   .slide1 {
@@ -596,6 +656,14 @@ $super-vision-cover: #1cacdc;
     }
     .image{
       @media screen and(max-width:800px){
+        width: 100%;
+        right: 0%;
+        padding-top: 30%;
+        img{
+          width: 40%;
+        }
+      }
+      @media screen and(max-width:480px){
         width: 100%;
         height: 50%;
         right: 0%;
@@ -655,6 +723,14 @@ $nomadic-cover: #F46948;
       }
     }
   }
+  .slide-original, .slide-favorites, .slide-conversations{
+    img{
+      width: 90%;
+      @media screen and (max-width: 800px){
+        width: 100%;
+      }
+    }
+  }
   .slide3{
     background-color: #DCD9CB;
     color: #33302E;
@@ -684,13 +760,23 @@ $nomadic-cover: #F46948;
       padding-top: 35px;
       li{
         width: 49%;
-        display: inline-block;
         line-height: 108%;
-        margin-bottom: 35px;
+        min-height: 102px;
+        min-height: 102px;
+        display: block;
+        float: left;
+        p{
+          font-family: $effra;
+          font-size: 1em;
+          padding-left:46px;
+        }
         img{
           width: 36px;
           float: left;
-          padding-right: 10px;
+        }
+        @media screen and (max-width: 480px){
+          width: 100%;
+          min-height: 0px;
         }
       }
     }
@@ -779,7 +865,24 @@ $common-curriculum-cover: #4fc99a;
   .cc-slide-closing{
     background: $common-curriculum-cover;
     color: #FFF;
-
+  }
+  .cc-slide-4, .cc-slide-6{
+    .image{
+      img{
+        width: 90%;
+        @media screen and (max-width: 800px){
+          width: 100%;
+        }
+      }
+    }
+  }
+  .cc-slide-closing{
+    img{
+      opacity: .3; width: 400px; margin-bottom: 35px;
+      @media screen and (max-width: 800px){
+        width: 100%;
+      }
+    }
   }
 }
 
@@ -830,6 +933,7 @@ $commit-cover: #0286a3;
     background-color: $commit-cover;
     color: #FFF;
     padding-right: 0;
+
   }
   .commit-slide-5{
     background-color: $commit-cover;
@@ -882,6 +986,24 @@ $step-alt: #f7b43e;
       padding-top: 150px;
       img{
         padding-bottom: 10px;
+      }
+      @media screen and (max-width: 800px){
+        padding-top: 30px;
+        width: 100%;
+        img{
+          float: left;
+          width: 50%;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .step-slide-8{
+    .image{
+      top: 12%;
+      position: relative;
+      @media screen and (max-width:800px){
+        top: 0%;
       }
     }
   }

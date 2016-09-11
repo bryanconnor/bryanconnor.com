@@ -26,7 +26,7 @@
     </div>
   </div>
   <div class="rsContent cc-slide-4 left-text">
-    <div class="image "><img src="<?php echo url('content/work/common-curriculum/common-curriculum-bryan-connor-1.png') ?>" style="width: 90%;" / ></div>
+    <div class="image "><img src="<?php echo url('content/work/common-curriculum/common-curriculum-bryan-connor-1.png') ?>" /></div>
     <div class="text">
       <h3>PROGRESS</h3>
       <p>A few months later Scott reached out again as the team was preparing the product for launch. They wanted to iterate on the design and user experience and get some user-friendly prototypes in the hands of Baltimore City school teachers.</p>
@@ -40,8 +40,8 @@
       <p>The system’s key feature is lesson templating. Teachers can build off of example templates, create their own, or share templates with colleages.</p>
     </div>
   </div>
-  <div class="rsContent cc-slide-5 left-text">
-    <div class="image "><img src="<?php echo url('content/work/common-curriculum/common-curriculum-features.gif') ?>" style="width: 90%;" / ></div>
+  <div class="rsContent cc-slide-6 left-text">
+    <div class="image "><img src="<?php echo url('content/work/common-curriculum/common-curriculum-features.gif') ?>"/></div>
     <div class="text">
       <h3>TEACHER TESTED</h3>
       <p>During several pre-launch events we watched as teachers tested the various prototypes and gave us valuable feedback, which we quickly incorporated into the product.</p>
@@ -52,7 +52,7 @@
   <div class="rsContent cc-slide-closing centered-block">
     <div class="text">
       <div class="center">
-      <img src="<?php echo url('content/work/common-curriculum/common-curriculum-logo.png') ?>" style="opacity: .3; width: 400px; margin-bottom: 35px;"/>
+      <img src="<?php echo url('content/work/common-curriculum/common-curriculum-logo.png') ?>"/>
       </div>
       <p>Common Curriculum officially launched with a <a href="http://technical.ly/baltimore/2012/08/23/common-curriculum-online-lesson-planning-for-teachers-officially-launches-at-maxs-taphouse/" target="_blank">party</a> at Max's Tap House in Baltimore. <a href="http://friendsoftheweb.com/" target="_blank">Friends of the Web</a> provided final branding for the tool as well as early working prototypes. Development and design work were eventually taken over by the core team at Common Curriculum who have since launched several new iterations of the tool.</p>
     </div>
