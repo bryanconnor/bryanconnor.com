@@ -302,15 +302,16 @@ nav{
       display: block;
     }
   }
-  @media screen and (max-width: 800px){
-    //overflow: scroll;
-  }
+  
 }
 
 .rsContent{
   @include box-sizing();
   padding: 5%;
-  overflow: scroll;
+  
+  @media screen and (max-width: 1024px){
+    overflow: scroll;
+  }
 }
 
 
