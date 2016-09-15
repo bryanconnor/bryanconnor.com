@@ -24,7 +24,7 @@
     deeplinking: {
       enabled: true,
       change: true,
-      prefix: 'super-vision-'
+      prefix: 'nomadic-'
     }
   });
 
