@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<div id="step" class="royalSlider rsMinW">
+<div id="step" class="royalSlider rsMinW full">
   <div class="rsContent step-slide-1 cover left-text">
     <div class="text">
       <h1>Designing one STEP at a time with Inquirium</h1>
