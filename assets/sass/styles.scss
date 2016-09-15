@@ -291,6 +291,9 @@ nav{
   width: 100%;
   //min-height: 780px;
   height: 95vh;
+  &.full{
+  height: 100vh;
+  }
   .rsOverflow{
     cursor: auto !important;
   }

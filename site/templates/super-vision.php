@@ -50,7 +50,7 @@ $('.more-toggle').click(function() {
  <div class="keyboard-hint">
   <img src="<?php echo url('assets/images/keyboard-hint.png') ?>" />
 </div>
-<div id="super-vision" class="royalSlider rsMinW">
+<div id="super-vision" class="royalSlider rsMinW full">
   <div class="rsContent slide1 cover left-text">
     <div class="text">
       <h1>Giving parents the power of Super Vision with PBS KIDS</h1>
