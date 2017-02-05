@@ -1,6 +1,6 @@
 <div id="step" class="royalSlider rsMinW">
   <div class="rsContent step-slide-1 cover left-text">
-    <div class="image"><a class="rsImg" href="<?php echo url('content/work/step/step-macbook-front-cmp.png') ?>"></a></div>
+    <div class="image"><a class="rsImg" href="<?php echo url('content/work/step/step-macbook-2.gif') ?>"></a></div>
     <div class="text">
       <h1>Designing one STEP at a time with Inquirium</h1>
       <span class="learn-more">Learn More</span>

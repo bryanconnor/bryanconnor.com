@@ -6,7 +6,7 @@
       <h1>Designing one STEP at a time with Inquirium</h1>
       <a href="" class="learn-more">Learn More</a>
     </div>
-    <div class="image"><img src="<?php echo url('content/work/step/step-macbook-front.png') ?>" /></div>
+    <div class="image"><img src="<?php echo url('content/work/step/step-macbook-2.gif') ?>" /></div>
   </div>
   <div class="rsContent step-slide-2 centered-block">
     <div class="text" data-move-effect="none">

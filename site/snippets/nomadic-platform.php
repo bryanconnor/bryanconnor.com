@@ -53,7 +53,7 @@
     
   </div>
   <div class="rsContent slide-conversations left-text">
-    <div class="image "><img src="<?php echo url('content/work/nomadic/conversation-ipad-2.png') ?>" /></div>
+    <div class="image "><img src="<?php echo url('content/work/nomadic/conversation-ipad-3.gif') ?>" /></div>
     <div class="text ">
        <h3>CONVERSATIONS</h3>
       <p>Each Field Manual contains its own debate section but the conversation hub collects them all into one central location. It also allows users to start new conversations, outside of those set up by program administrators, so they can discuss the content on their own terms. </p>

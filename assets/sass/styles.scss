@@ -700,6 +700,16 @@ $super-vision-cover: #1cacdc;
       }
     }
   }
+  .sv-slide-dash{
+    .text{
+      left:160px;
+    }
+    .image{
+      img{
+        width: 38%;
+      }
+    }
+  }
   .sv-slide-testing{
     img{
       width: 80%;
@@ -1053,6 +1063,11 @@ $step-alt: #f7b43e;
       background-color: darken(desaturate(#eb9f42, 2%), 2%);
       &:hover{
         background-color: darken(desaturate(#eb9f42, 2%), 10%);
+      }
+    }
+    .image{
+      .rsImg{
+        width: 90%;
       }
     }
   }

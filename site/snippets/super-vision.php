@@ -41,6 +41,13 @@
     </div>
     <div class="image "><img src="<?php echo url('content/work/super-vision/sv-report.gif') ?>"  /></div>
   </div>
+  <div class="rsContent sv-slide-dash left-text">
+    <div class="text">
+      <h3>DASHBOARD</h3>
+      <p>The Super Vision dashboard gives users access to features outside of the core activity feed experience. The Play Timer is a very popular feature that can display a message on a kid's device and put it to sleep, all remotely. The app has quite a robust help section and even provides TV times, localized to your PBS station.</p>
+    </div>
+    <div class="image "><img src="<?php echo url('content/work/super-vision/sv-dashboard.gif') ?>"  /></div>
+  </div>
   <div class="rsContent sv-slide-testing left-text">
     <div class="text ">
        <h3>PARENT TESTING</h3>
