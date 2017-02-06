@@ -18,6 +18,8 @@
 
 <?php snippet('super-vision') ?>
 
+<?php snippet('incidents') ?>
+
 <?php snippet('nomadic-platform') ?>
 
 <?php snippet('nasa') ?>

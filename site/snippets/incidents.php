@@ -11,9 +11,9 @@
     <div class=" text" data-move-effect="none">
       
 
-      <p>I worked with Austin from <a href="http://educatorshandbook.com/" target="_blank">Educators Handbook</a> to modernize and enhance the well-loved Incidents app. With an existing customer base of school districts, the behavior management tool needed feel familiar, even with a host of new features.</p>
+      <p>I worked with Austin from <a href="http://educatorshandbook.com/" target="_blank">EducatorsHandbook.com</a> to modernize and enhance the well-loved Incidents app. With an existing customer base of school districts, the behavior management tool needed to feel familiar, even with a host of new features.</p>
       <ul class="team">
-        <li><img src="<?php echo url('content/work/nomadic/team-bryan.png'); ?>"/>Austin</li>
+        <li><img src="<?php echo url('content/work/incidents/team-austin.png'); ?>"/>Austin</li>
         <li><img src="<?php echo url('content/work/nomadic/team-bryan.png'); ?>"/>Bryan</li>
         <li><div class="arr"></div><strong>My Role: </strong>UX Design &bull; UI Design &bull; Product Strategy &bull; Branding</li>
 
@@ -30,7 +30,7 @@
   <div class="rsContent in-slide-4 left-text">
     <div class="text">
       <h3>STUDENT HISTORY</h3>
-      <p>A student’s entire history accessible on demand, limiting excess consequences that would interfere with school. A teacher or administrator can see an overview as well as a full log of each incident's details to add context to the event at hand.</p>
+      <p>A student’s entire history is accessible on demand, limiting excess consequences that would interfere with school. A teacher or administrator can see an overview as well as a full log of prior incidents to add context to the event at hand.</p>
     </div>
     <div class="image "><img src="<?php echo url('content/work/incidents/incidents-student-history.gif') ?>"  /></div>
   </div>
@@ -53,7 +53,7 @@
     <div class="text">
       <p>
 
-      The new <a href="http://www.educatorshandbook.com/" target="_blank">Incidents app</a> from Educators Handbook has been rolled out to districts across the country, garnering priase from current and new users. The app is under active development with features and improvements rolling out reguarly, announced on the app's <a href="http://www.educatorshandbook.com/about/news/incidents-11/" target="_blank">update log</a>.</p>
+      The new <a href="http://www.educatorshandbook.com/" target="_blank">Incidents app</a> from EducatorsHandbook.com has been rolled out to districts across the country, garnering priase from current and new users. The app is under active development and continues to adjust to customer feedback.</p>
 
     </div>
   </div>
