@@ -3,7 +3,7 @@
     <div class="image ipad-front"><a class="rsImg" href="<?php echo url('content/work/nomadic/nomadic-platform-ipad-2.jpg') ?>"></a>
     </div>
     <div class="text">
-      <h1>Building a new platform for Nomadic.fm learners</h1>
+      <h1>Changing the face of professional learning with Nomadic</h1>
       <span class="learn-more">Learn More</span>
     </div>
 
