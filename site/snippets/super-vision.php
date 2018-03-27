@@ -2,7 +2,7 @@
   <div class="rsContent slide1 cover left-text">
     <div class="image sv-ios-front"><a class="rsImg" href="<?php echo url('content/work/super-vision/sv-phone.gif') ?>"></a></div>
     <div class="text">
-      <h1>Giving parents the power of Super Vision with PBS KIDS</h1>
+      <h1>Transforming the kid-parent-media relationship with PBS KIDS</h1>
       <span class="learn-more">Learn More</span>
     </div>
     
