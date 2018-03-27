@@ -3,3 +3,5 @@ panel/
 site/panel
 docs
 *.scssc
+
+config.codekit
