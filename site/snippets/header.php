@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   
-  <title><?php echo html($site->title()) ?> - <?php echo html($page->title()) ?></title>
+  <title>Bryan Connor - Freelance UX Designer</title>
   <meta charset="utf-8" />
-  <meta name="description" content="<?php echo html($site->description()) ?>" />
-  <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
+  <meta name="description" content="Freelance UX Designer partnering with great teams – giving form to what's next" />
+  <meta name="keywords" content="research, analysis, product strategy, information architecture, prototyping, user experience design, design, ux, visual design, ui, user interface design, front-end development, development," />
   <meta name="robots" content="index, follow" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
